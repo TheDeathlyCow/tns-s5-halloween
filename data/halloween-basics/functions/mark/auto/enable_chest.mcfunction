@@ -1,0 +1,1 @@
+scoreboard players set isChestAuto chestAutoOn 1
