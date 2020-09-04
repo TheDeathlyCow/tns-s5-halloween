@@ -6,3 +6,6 @@ execute as @e[type=minecraft:armor_stand,tag=chest_marker,distance=..500] at @s 
 
 #replace the chests with new chests
 execute as @e[type=minecraft:armor_stand,tag=tier1_chest,distance=..500] at @s run setblock ~ ~ ~ minecraft:chest{LootTable:"halloween-basics:chests/tier1_chest"}
+execute as @e[type=minecraft:armor_stand,tag=tier2_chest,distance=..500] at @s run setblock ~ ~ ~ minecraft:chest{LootTable:"halloween-basics:chests/tier2_chest"}
+execute as @e[type=minecraft:armor_stand,tag=tier2_chest,distance=..500] at @s run setblock ~ ~ ~ minecraft:chest{LootTable:"halloween-basics:chests/tier3_chest"}
+execute as @e[type=minecraft:armor_stand,tag=tier2_chest,distance=..500] at @s run setblock ~ ~ ~ minecraft:chest{LootTable:"halloween-basics:chests/tier4_chest"}
