@@ -1,0 +1,297 @@
+{
+    "type": "chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "bonus_rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "quality": 2,
+                    "name": "minecraft:golden_chestplate",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{AttributeModifiers:[{AttributeName:\"generic.luck\",Name:\"generic.luck\",Amount:1,Operation:0,UUID:[I;-593869625,1308511052,-1308511706,2086360630],Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:5,Operation:0,UUID:[I;-1423776834,-1795666957,-1587463054,1035306987],Slot:\"chest\"}]}"
+                        },
+                        {
+                            "function": "enchant_randomly"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "quality": 5,
+                    "name": "minecraft:golden_sword",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Enchantments:[{id:\"minecraft:fire_aspect\",lvl:2s},{id:\"minecraft:looting\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:5s}],AttributeModifiers:[{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:2.2,Operation:0,UUID:[I;-2068725650,327698220,-2072190855,-33076748],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:6,Operation:0,UUID:[I;-740333146,1880706987,-1152591710,1743650919],Slot:\"mainhand\"}]}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "Magma Sword",
+                                    "color": "#FF9E0D",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "quality": 0,
+                    "name": "minecraft:golden_horse_armor",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "enchant_randomly"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "quality": 1,
+                    "name": "minecraft:iron_axe",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:4,Operation:0,UUID:[I;1082055085,-1405464708,-1446917127,-504430567],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:9,Operation:0,UUID:[I;742809568,-502120272,-1788739657,-895231983],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:0.9,Operation:0,UUID:[I;-780990756,2099266427,-1374241493,2035767168],Slot:\"mainhand\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.1,Operation:1,UUID:[I;1364407271,-1657649604,-1525816570,682929279],Slot:\"mainhand\"}]}"
+                        },
+                        {
+                            "function": "enchant_randomly"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 3,
+                    "quality": 1,
+                    "name": "minecraft:netherite_hoe",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "enchant_randomly"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 3,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "quality": 0,
+                    "name": "minecraft:warped_fungus_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "quality": -1,
+                    "name": "minecraft:warped_fungus",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "quality": 1,
+                    "name": "minecraft:fire_charge",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "quality": 0,
+                    "name": "minecraft:quartz",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "quality": -1,
+                    "name": "minecraft:string",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "quality": 0,
+                    "name": "minecraft:gunpowder",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 5
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "bonus_rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "quality": 2,
+                    "name": "minecraft:netherite_scrap",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "quality": 1,
+                    "name": "minecraft:potion",
+                    "functions": [
+                        {
+                            "function": "set_count",    
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Potion:\"minecraft:fire_resistance\"}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "quality": 3,
+                    "name": "minecraft:netherite_sword",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "enchant_randomly",
+                            "enchantments": [
+                                "sharpness",
+                                "looting",
+                                "unbreaking"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "quality": 3,
+                    "name": "minecraft:netherite_axe",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "enchant_randomly"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "quality": 4,
+                    "name": "minecraft:netherite_chestplate",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{AttributeModifiers:[{AttributeName:\"generic.luck\",Name:\"generic.luck\",Amount:2,Operation:0,UUID:[I;1229416227,1639272414,-1403805458,1102547992],Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:8,Operation:0,UUID:[I;528873562,-1276753520,-2088034047,-194367441],Slot:\"chest\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:3,Operation:0,UUID:[I;-991891194,-513455062,-1345274330,1192442981],Slot:\"chest\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.1,Operation:0,UUID:[I;-815401393,-924172108,-1847722100,-1779382304],Slot:\"chest\"}]}"
+                        },
+                        {
+                            "function": "enchant_randomly"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 4,
+                    "quality": -1,
+                    "name": "minecraft:gold_ingot",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 12
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
