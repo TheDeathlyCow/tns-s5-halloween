@@ -2,6 +2,8 @@
 # tierNumber can be 1, 2, 3, or 4
 # direction can be "north", "south", "east", or "west"
 
+# ===== debug messages =====
+# tellraw @a "Executing function halloween-basics:mark/auto/chest.mcfunction"
 
 # ===== mark the chests =====
 
@@ -47,4 +49,4 @@ kill @e[type=minecraft:silverfish,name="chest_tier2_west"]
 kill @e[type=minecraft:silverfish,name="chest_tier3_west"]
 kill @e[type=minecraft:silverfish,name="chest_tier4_west"]
 
-execute if score isChestAuto chestAutoOn matches 1 schedule function halloween-basics:mark/auto 1t
+execute if score isChestAuto chestAutoOn matches 1 run schedule function halloween-basics:mark/auto/chest 1t
