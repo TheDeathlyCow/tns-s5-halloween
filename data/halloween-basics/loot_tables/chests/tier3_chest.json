@@ -134,6 +134,18 @@
                 {
                     "type": "item",
                     "weight": 1,
+                    "quality": 0,
+                    "name": "minecraft:saddle",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
                     "quality": 1,
                     "name": "minecraft:fire_charge",
                     "functions": [
@@ -161,8 +173,8 @@
                 {
                     "type": "item",
                     "weight": 2,
-                    "quality": -1,
-                    "name": "minecraft:string",
+                    "quality": 0,
+                    "name": "minecraft:chain",
                     "functions": [
                         {
                             "function": "set_count",
