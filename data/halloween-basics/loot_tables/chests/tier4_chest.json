@@ -414,7 +414,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{Unbreakable:1b,bedrockinfused:1b,Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:10s}]}"
+                            "tag": "{Unbreakable:1b,bedrockinfused:1b,Enchantments:[{id:\"minecraft:unbreaking\",lvl:10s}]}"
                         },
                         {
                             "function": "set_name",

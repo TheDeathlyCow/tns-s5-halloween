@@ -1,0 +1,99 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Bedrock Master",
+            "color": "dark_purple",
+            "bold": true
+        },
+        "description": {
+            "text": "Obtain every item in the Bedrock Infused Netherite set."
+        },
+        "icon": {
+            "item": "minecraft:bedrock"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "all_items": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {  
+                        "item": "minecraft:netherite_helmet",
+                        "enchantments" : [{
+                            "enchantment": "unbreaking",
+                            "levels": 10
+                        }]
+                    },
+                    {  
+                        "item": "minecraft:netherite_chestplate",
+                        "enchantments" : [{
+                            "enchantment": "unbreaking",
+                            "levels": 10
+                        }]
+                    },
+                    {  
+                        "item": "minecraft:netherite_leggings",
+                        "enchantments" : [{
+                            "enchantment": "unbreaking",
+                            "levels": 10
+                        }]
+                    },
+                    {  
+                        "item": "minecraft:netherite_boots",
+                        "enchantments" : [{
+                            "enchantment": "unbreaking",
+                            "levels": 10
+                        }]
+                    },
+                    {  
+                        "item": "minecraft:netherite_pickaxe",
+                        "enchantments" : [{
+                            "enchantment": "unbreaking",
+                            "levels": 10
+                        }]
+                    },
+                    {  
+                        "item": "minecraft:netherite_sword",
+                        "enchantments" : [{
+                            "enchantment": "unbreaking",
+                            "levels": 10
+                        }]
+                    },
+                    {  
+                        "item": "minecraft:netherite_axe",
+                        "enchantments" : [{
+                            "enchantment": "unbreaking",
+                            "levels": 10
+                        }]
+                    },
+                    {  
+                        "item": "minecraft:netherite_shovel",
+                        "enchantments" : [{
+                            "enchantment": "unbreaking",
+                            "levels": 10
+                        }]
+                    },
+                    {  
+                        "item": "minecraft:netherite_hoe",
+                        "enchantments" : [{
+                            "enchantment": "unbreaking",
+                            "levels": 10
+                        }]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "halloween-basics:advancement_rewards/bedrock_master"
+        ],
+        "experience": 1000
+    },
+    "parent": "halloween-basics:root"
+}

@@ -1,5 +1,4 @@
 {
-    "type": "advancement_reward",
     "pools": [
         {
             "rolls": 1,
@@ -15,7 +14,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{Unbreakable:1b,bedrockinfused,Enchantments:[{id:\"minecraft:unbreaking\",lvl:10s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:8,Operation:0,UUID:[I;-244106389,-1014805467,-1852244734,-1662602861],Slot:\"chest\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:3,Operation:0,UUID:[I;-1015601470,-65976275,-1698614499,1598617886],Slot:\"chest\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.1,Operation:0,UUID:[I;2029992707,1477855223,-1230796106,1319408946],Slot:\"chest\"}]}"
+                            "tag": "{Unbreakable:1b,bedrockinfused:1b,Enchantments:[{id:\"minecraft:unbreaking\",lvl:10s}]}"
                         },
                         {
                             "function": "set_name",
@@ -25,6 +24,14 @@
                                     "color": "dark_gray",
                                     "bold": true,
                                     "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "Infused with bedrock to provide ultimate durability."
                                 }
                             ]
                         }
