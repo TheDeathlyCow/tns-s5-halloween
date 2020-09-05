@@ -1,0 +1,25 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "The Warped Mansion",
+            "color": "dark_aqua"
+        },
+        "description": {
+            "text": "Enter the Warped Mansion."
+        },
+        "icon": {
+            "item": "minecraft:warped_stem"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "enterMansion": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "halloween-basics:root"
+}

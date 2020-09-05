@@ -93,7 +93,7 @@
         "loot": [
             "halloween-basics:advancement_rewards/bedrock_master"
         ],
-        "experience": 1000
+        "experience": 100
     },
     "parent": "halloween-basics:root"
 }
