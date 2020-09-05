@@ -6,7 +6,8 @@
             "color": "dark_red"
         },
         "description": {
-            "text": "Enter the Crimson Mansion."
+            "text": "Enter the Crimson Mansion.",
+            "color": "red"
         },
         "icon": {
             "item": "minecraft:crimson_stem"

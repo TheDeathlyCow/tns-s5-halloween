@@ -1,0 +1,60 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Unbreakable Foe",
+            "color": "dark_purple"
+        },
+        "description": {
+            "text": "Obtain a full set of Bedrock Infused Netherite armour."
+        },
+        "icon": {
+            "item": "minecraft:bedrock"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "all_items": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {  
+                        "item": "minecraft:netherite_helmet",
+                        "enchantments" : [{
+                            "enchantment": "unbreaking",
+                            "levels": 10
+                        }]
+                    },
+                    {  
+                        "item": "minecraft:netherite_chestplate",
+                        "enchantments" : [{
+                            "enchantment": "unbreaking",
+                            "levels": 10
+                        }]
+                    },
+                    {  
+                        "item": "minecraft:netherite_leggings",
+                        "enchantments" : [{
+                            "enchantment": "unbreaking",
+                            "levels": 10
+                        }]
+                    },
+                    {  
+                        "item": "minecraft:netherite_boots",
+                        "enchantments" : [{
+                            "enchantment": "unbreaking",
+                            "levels": 10
+                        }]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 20
+    },
+    "parent": "halloween-basics:root"
+}

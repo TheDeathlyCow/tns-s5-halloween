@@ -9,7 +9,7 @@
             "text": "Welcome to the Totally Not Suspicious season 5 Halloween event!"
         },
         "icon": {
-            "item": "minecraft:pumpkin"
+            "item": "minecraft:carved_pumpkin"
         },
         "frame": "task",
         "show_toast": true,
