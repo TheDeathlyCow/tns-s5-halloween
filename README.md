@@ -9,3 +9,6 @@
 ## What's already there:
 * Tier 1 loot table for chest (but could still use tweaking.)
 * Chest marking system.
+
+### Important note:
+ALL commands and loot tables should be created on https://mcstacker.net/ for consistent style (This is <i>VERY</i> important for NBT data especially).
