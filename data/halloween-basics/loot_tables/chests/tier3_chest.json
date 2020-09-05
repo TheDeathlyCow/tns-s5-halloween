@@ -208,7 +208,7 @@
             "entries": [
                 {
                     "type": "item",
-                    "weight": 1,
+                    "weight": 3,
                     "quality": 2,
                     "name": "minecraft:netherite_scrap",
                     "functions": [
@@ -220,7 +220,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 2,
+                    "weight": 3,
                     "quality": 1,
                     "name": "minecraft:potion",
                     "functions": [
@@ -236,7 +236,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 1,
+                    "weight": 2,
                     "quality": 3,
                     "name": "minecraft:netherite_sword",
                     "functions": [
@@ -256,7 +256,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 1,
+                    "weight": 2,
                     "quality": 3,
                     "name": "minecraft:netherite_axe",
                     "functions": [
@@ -271,7 +271,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 2,
+                    "weight": 1,
                     "quality": 4,
                     "name": "minecraft:netherite_chestplate",
                     "functions": [
@@ -282,6 +282,51 @@
                         {
                             "function": "set_nbt",
                             "tag": "{AttributeModifiers:[{AttributeName:\"generic.luck\",Name:\"generic.luck\",Amount:2,Operation:0,UUID:[I;1229416227,1639272414,-1403805458,1102547992],Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:8,Operation:0,UUID:[I;528873562,-1276753520,-2088034047,-194367441],Slot:\"chest\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:3,Operation:0,UUID:[I;-991891194,-513455062,-1345274330,1192442981],Slot:\"chest\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.1,Operation:0,UUID:[I;-815401393,-924172108,-1847722100,-1779382304],Slot:\"chest\"}]}"
+                        },
+                        {
+                            "function": "enchant_randomly"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "quality": 3,
+                    "name": "minecraft:netherite_helmet",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "enchant_randomly"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "quality": 3,
+                    "name": "minecraft:netherite_boots",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "enchant_randomly"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "quality": 3,
+                    "name": "minecraft:netherite_leggings",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
                         },
                         {
                             "function": "enchant_randomly"
