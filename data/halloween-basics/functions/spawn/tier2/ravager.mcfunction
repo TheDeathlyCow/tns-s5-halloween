@@ -1,0 +1,1 @@
+execute at @s run summon ravager ~ ~ ~ {Tags:["halloweenMob"],CustomName:'{"text":"Warped Ravager","color":"dark_aqua"}'}

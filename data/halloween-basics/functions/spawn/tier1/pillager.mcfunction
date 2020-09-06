@@ -1,0 +1,1 @@
+execute at @s run summon pillager ~ ~ ~ {Tags:["halloweenMob"],CustomName:'{"text":"Warped Pillager","color":"dark_aqua"}',HandItems:[{id:"minecraft:crossbow",Count:1b},{}]}

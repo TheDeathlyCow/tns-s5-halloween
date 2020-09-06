@@ -20,3 +20,11 @@ execute as @e[type=minecraft:armor_stand,tag=tier2_endermite] at @s run function
 # witches
 execute as @e[type=minecraft:armor_stand,tag=tier1_witch] at @s run function halloween-basics:spawn/tier1/witch
 execute as @e[type=minecraft:armor_stand,tag=tier2_witch] at @s run function halloween-basics:spawn/tier2/witch
+
+# ravagers
+execute as @e[type=minecraft:armor_stand,tag=tier2_ravager] at @s run function halloween-basics:spawn/tier2/ravager
+execute as @e[type=minecraft:armor_stand,tag=tier3_ravager] at @s run function halloween-basics:spawn/tier3/ravager
+
+# pillagers
+execute as @e[type=minecraft:armor_stand,tag=tier1_pillager] at @s run function halloween-basics:spawn/tier1/pillager
+execute as @e[type=minecraft:armor_stand,tag=tier2_pillager] at @s run function halloween-basics:spawn/tier2/pillager

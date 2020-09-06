@@ -1,0 +1,1 @@
+execute at @s run summon pillager ~ ~ ~ {Tags:["halloweenMob"],CustomName:'{"text":"Warped Pillager Brute","color":"dark_aqua"}',HandItems:[{id:"minecraft:crossbow",Count:1b,tag:{Enchantments:[{id:"minecraft:piercing",lvl:4s},{id:"minecraft:quick_charge",lvl:3s},{id:"minecraft:multishot",lvl:1s}]}},{}]}

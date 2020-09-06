@@ -1,2 +1,1 @@
-
-execute at @s run summon witch ~ ~ ~ {Tags:["halloweenMob"],CustomName:'{"text":"Warped Potionmaster","color":"blue"}',ActiveEffects:[{Id:10b,Amplifier:3b,Duration:999999}]}
+execute at @s run summon witch ~ ~ ~ {Health:30f,Tags:["halloweenMob"],CustomName:'{"text":"Warped Potionmaster","color":"blue"}',ActiveEffects:[{Id:10b,Amplifier:3b,Duration:999999},{Id:11b,Amplifier:0b,Duration:999999}],Attributes:[{Name:generic.max_health,Base:40}]}
