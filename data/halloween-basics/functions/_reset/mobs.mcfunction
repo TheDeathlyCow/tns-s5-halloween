@@ -34,6 +34,11 @@ execute as @e[type=minecraft:armor_stand,tag=tier1_fire_spirit] at @s run functi
 execute as @e[type=minecraft:armor_stand,tag=tier2_magma_spirit] at @s run function halloween-basics:spawn/tier2/magma_spirit
 execute as @e[type=minecraft:armor_stand,tag=tier3_volcanic_spirit] at @s run function halloween-basics:spawn/tier3/volcanic_spirit
 
+# piglins 
+execute as @e[type=minecraft:armor_stand,tag=tier1_piglin_warrior] at @s run function halloween-basics:spawn/tier1/piglin_warrior
+execute as @e[type=minecraft:armor_stand,tag=tier2_piglin_brute] at @s run function halloween-basics:spawn/tier2/piglin_brute
+execute as @e[type=minecraft:armor_stand,tag=tier3_piglin_boss] at @s run function halloween-basics:spawn/tier3/piglin_boss
+
 # ===== ensure all mobs are persistent ======
 #this is only cos i forgot to add the tag and im too lazy to go back over and fix it for everyone
 execute as @e[tag=halloweenMob] run data merge entity @s {PersistenceRequired:1b}

@@ -1,1 +1,1 @@
-execute at @s run summon ravager ~ ~ ~ {Health:200f,StunTick:60,Tags:["halloweenMob"],CustomName:'{"text":"♱ Warped Ravager Boss ♱","color":"dark_red"}',ActiveEffects:[{Id:5b,Amplifier:2b,Duration:999999}],Attributes:[{Name:generic.max_health,Base:200}]}
+execute at @s run summon ravager ~ ~ ~ {DeathLootTable:"halloween-basics:entities/avoid_death",Health:200f,StunTick:60,Tags:["halloweenMob"],CustomName:'{"text":"♱ Warped Ravager Boss ♱","color":"dark_red"}',ActiveEffects:[{Id:5b,Amplifier:2b,Duration:999999}],Attributes:[{Name:generic.max_health,Base:200}]}
