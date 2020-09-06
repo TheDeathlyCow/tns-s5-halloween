@@ -28,3 +28,8 @@ execute as @e[type=minecraft:armor_stand,tag=tier3_ravager] at @s run function h
 # pillagers
 execute as @e[type=minecraft:armor_stand,tag=tier1_pillager] at @s run function halloween-basics:spawn/tier1/pillager
 execute as @e[type=minecraft:armor_stand,tag=tier2_pillager] at @s run function halloween-basics:spawn/tier2/pillager
+
+# lava spirits
+execute as @e[type=minecraft:armor_stand,tag=tier1_fire_spirit] at @s run function halloween-basics:spawn/tier1/fire_spirit
+execute as @e[type=minecraft:armor_stand,tag=tier2_magma_spirit] at @s run function halloween-basics:spawn/tier2/magma_spirit
+execute as @e[type=minecraft:armor_stand,tag=tier3_volcanic_spirit] at @s run function halloween-basics:spawn/tier3/volcanic_spirit
