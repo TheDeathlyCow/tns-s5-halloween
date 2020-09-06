@@ -1,0 +1,1 @@
+execute at @s run summon piglin_brute ~ ~ ~ {IsImmuneToZombification:1b,Tags:["halloweenMob"],CustomName:'{"text":"Piglin Warrior","color":"gold","bold":false}',HandItems:[{id:"minecraft:golden_axe",Count:1b},{}]}

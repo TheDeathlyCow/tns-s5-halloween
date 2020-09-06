@@ -33,3 +33,7 @@ execute as @e[type=minecraft:armor_stand,tag=tier2_pillager] at @s run function 
 execute as @e[type=minecraft:armor_stand,tag=tier1_fire_spirit] at @s run function halloween-basics:spawn/tier1/fire_spirit
 execute as @e[type=minecraft:armor_stand,tag=tier2_magma_spirit] at @s run function halloween-basics:spawn/tier2/magma_spirit
 execute as @e[type=minecraft:armor_stand,tag=tier3_volcanic_spirit] at @s run function halloween-basics:spawn/tier3/volcanic_spirit
+
+# ===== ensure all mobs are persistent ======
+#this is only cos i forgot to add the tag and im too lazy to go back over and fix it for everyone
+execute as @e[tag=halloweenMob] run data merge entity @s {PersistenceRequired:1b}
