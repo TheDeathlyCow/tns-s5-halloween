@@ -1,0 +1,1 @@
+execute at @s run summon skeleton ~ ~ ~ {Tags:["halloweenMob"],CustomName:'{"text":"Skeleton Crewmate","color":"red","italic":false}',HandItems:[{id:"minecraft:bow",Count:1b},{}],ArmorItems:[{},{},{},{id:"minecraft:leather_helmet",Count:1b,tag:{display:{color:2039583}}}]}
