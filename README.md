@@ -2,13 +2,15 @@
  
 ## What's needed:
 * Bosses for the warped forest, crimson forest, lava ocean, and basalt deltas.
-* Minions for the warped forest, crimson forest, lava ocean, and basalt deltas.
-* Tiered loot chest loot tables.
-* A marking system for mob spawning positions like the one for chests (See https://github.com/TheDeathlyCow/tns-s5-halloween/tree/master/data/halloween-basics/functions/mark for implementation details).
+* Minions for the crimson forest, lava ocean, and basalt deltas.
 
 ## What's already there:
-* Tier 1 loot table for chest (but could still use tweaking.)
+* Chest loot tables.
+* Bedrock infused armour.
 * Chest marking system.
+* Warped Mansion mobs (vindicators, endermites, witch, ravagers).
+* Lava spirits, piglins.
+* A framework for mob spawning markers.
 
 ### Important note:
-ALL commands and loot tables should be created on https://mcstacker.net/ for consistent style (This is <i>VERY</i> important for NBT data especially).
+ALL commands and loot tables should be created on https://mcstacker.net/ for consistent style (This is <i>VERY</i> important for NBT data especially). However, the enchant randomly function can be applied manually to loot tables.
