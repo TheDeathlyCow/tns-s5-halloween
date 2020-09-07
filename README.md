@@ -8,7 +8,7 @@
 * Chest loot tables.
 * Bedrock infused armour.
 * Chest marking system.
-* Warped Mansion mobs (vindicators, endermites, witch, ravagers).
+* Warped Mansion mobs (vindicators, pillagers, endermites, witch, ravagers).
 * Lava spirits, piglins.
 * A framework for mob spawning markers.
 
