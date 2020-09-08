@@ -10,3 +10,8 @@ team add warped_players "Warped Mansion Party"
 team modify warped_players friendlyFire false
 team modify warped_players color dark_aqua
 team modify warped_players seeFriendlyInvisibles true
+
+team add castle_players "Lost Valley Castle Party"
+team modify warped_players friendlyFire false
+team modify warped_players color dark_purple
+team modify warped_players seeFriendlyInvisibles true
