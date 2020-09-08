@@ -1,5 +1,6 @@
 {
 	"values": [
-		"halloween-basics:setup"
+		"halloween-basics:setup",
+		"halloween-basics:portal/portal_loop"
 	]
 }
