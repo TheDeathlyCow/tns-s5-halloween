@@ -1,0 +1,26 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "The Magma Sea",
+            "color": "gold"
+        },
+        "description": {
+            "text": "Enter the Magma Sea.",
+            "color": "red"
+        },
+        "icon": {
+            "item": "minecraft:magma_block"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "enterMansion": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "halloween-basics:defeat_basalt_boss"
+}

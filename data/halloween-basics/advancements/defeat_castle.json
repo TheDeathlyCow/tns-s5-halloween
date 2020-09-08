@@ -1,0 +1,30 @@
+{
+    "__comment": "ADD LOOT TABLE REWARD HERE",
+    "display": {
+        "title": {
+            "text": "Sealing the Gates",
+            "color": "dark_purple",
+            "bold": true
+        },
+        "description": {
+            "text": "Defeat the Angel of the Lost River.",
+            "color": "aqua"
+        },
+        "icon": {
+            "item": "minecraft:wither_skeleton_skull"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "enterMansion": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 200
+    },
+    "parent": "halloween-basics:enter_castle"
+}

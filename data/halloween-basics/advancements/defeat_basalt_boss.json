@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "The Third Trial",
+            "color": "gold"
+        },
+        "description": {
+            "text": "Defeat the Volcano Boss.",
+            "color": "dark_red"
+        },
+        "icon": {
+            "item": "minecraft:fire_charge"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "enterMansion": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 100
+    },
+    "parent": "halloween-basics:enter_basalt"
+}
