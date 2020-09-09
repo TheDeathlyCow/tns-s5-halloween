@@ -1,5 +1,4 @@
 function halloween-basics:portal/warped_forest/check_teleport_to_overworld
 function halloween-basics:portal/warped_forest/check_teleport_to_nether
 
-
 schedule function halloween-basics:portal/portal_loop 1t

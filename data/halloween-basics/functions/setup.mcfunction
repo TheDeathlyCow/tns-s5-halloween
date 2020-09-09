@@ -15,3 +15,17 @@ team add castle_players "Lost Valley Castle Party"
 team modify warped_players friendlyFire false
 team modify warped_players color dark_purple
 team modify warped_players seeFriendlyInvisibles true
+
+scoreboard objectives remove wrpdPlyrsCnt
+scoreboard objectives add wrpdPlyrsCnt dummy
+execute if entity @e[type=player,tag=WarpedParty] store result score numWarpedPlayers wrpdPlyrsCnt
+execute unless entity @e[type=player,tag=WarpedParty] run scoreboard players set numWarpedPlayers wrpdPlyrsCnt 0
+
+scoreboard objectives remove rstWrpd
+scoreboard objectives add rstWrpd dummy
+scoreboard players set isResetWarped rstWrpd 0
+
+scoreboard objectives remove wrpdReset 
+scoreboard objectives add wrpdReset trigger
+
+
