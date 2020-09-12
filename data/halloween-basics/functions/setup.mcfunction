@@ -15,7 +15,6 @@ scoreboard objectives remove rstWrpd
 scoreboard objectives add rstWrpd dummy
 scoreboard players set isResetWarped rstWrpd 0
 
-scoreboard objectives remove wrpdReset 
-scoreboard objectives add wrpdReset trigger
-
-
+scoreboard objectives add nmWrpdRns dummy
+scoreboard players set maxWarpedRuns nmWrpdRns 2
+scoreboard players add @a nmWrpdRns 0
