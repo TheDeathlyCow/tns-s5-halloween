@@ -1,5 +1,7 @@
-tag @a[dz=3,dy=5] add warpd_tp_ovwld
-tag @a[dz=-3,dy=5] add warpd_tp_ovwld
+# tag @a[dz=3,dy=5] add warpd_tp_ovwld
+# tag @a[dz=-3,dy=5] add warpd_tp_ovwld
+
+tag @s add warpd_tp_ovwld
 
 gamemode survival @a[tag=warpd_tp_ovwld]
 tag @a[tag=warpd_tp_ovwld,tag=WarpedParty] remove WarpedParty

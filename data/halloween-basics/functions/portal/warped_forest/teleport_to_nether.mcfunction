@@ -1,5 +1,7 @@
-tag @a[dz=3,dy=5] add warpd_tp_nthr
-tag @a[dz=-3,dy=5] add warpd_tp_nthr
+# tag @a[dz=3,dy=5] add warpd_tp_nthr
+# tag @a[dz=-3,dy=5] add warpd_tp_nthr
+
+tag @s add warpd_tp_nthr
 
 gamemode adventure @a[tag=warpd_tp_nthr]
 advancement grant @a[tag=warpd_tp_nthr] only halloween-basics:enter_warped
