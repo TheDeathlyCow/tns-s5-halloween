@@ -13,7 +13,13 @@ execute at @e[tag=wave2_tp] run summon armor_stand ~ ~ ~2 {NoGravity:1b,Invulner
 execute at @e[tag=wave2_tp] run summon armor_stand ~ ~ ~-2 {NoGravity:1b,Invulnerable:1b,Small:1b,Invisible:1b,PersistenceRequired:1b,Tags:["wave2_marker","mob_marker"]}
 
 execute as @e[tag=wave3_marker] at @s run function halloween-basics:spawn/tier3/warped_shade 
-execute as @e[tag=wave2_marker] at @s run function halloween-basics:spawn/tier2/warped_shade    
+execute as @e[tag=wave2_marker] at @s run function halloween-basics:spawn/tier2/warped_shade
 
 kill @e[tag=wave3_marker]
 kill @e[tag=wave2_marker]
+
+scoreboard objectives add MnionCnt dummy
+scoreboard players set numMinions MnionCnt 0
+execute store result score numMinions MnionCnt if entity @e[tag=halloweenBossMinion]
+execute if score numMinions MnionCnt matches 11.. run kill @e[tag=halloweenBossMinion,sort=nearest,limit=4]
+scoreboard objectives remove MnionCnt
