@@ -3,4 +3,4 @@ execute as @e[tag=wrpdShardThree] store result bossbar minecraft:warped_soul_sha
 
 execute unless entity @e[tag=wrpdShardThree] run function halloween-bosses:warped_forest/fight/defeat_boss
 
-execute if entity @e[tag=wrpdShardThree] run schedule function halloween-bosses:warped_forest/fight/stage_3_loop 1t
+execute if score currWarpedStage WrpdStge matches 3 run schedule function halloween-bosses:warped_forest/fight/stage_3_loop 1t
