@@ -8,9 +8,8 @@ scoreboard players set isChestAuto chestAutoOn 0
 scoreboard objectives add wrpdPlyrsCnt dummy
 scoreboard players add numWarpedPlayers wrpdPlyrsCnt 0
 
-scoreboard objectives remove rstWrpd
 scoreboard objectives add rstWrpd dummy
-scoreboard players set isResetWarped rstWrpd 0
+scoreboard players add isResetWarped rstWrpd 0
 
 scoreboard objectives add nmWrpdRns dummy
 scoreboard players add @a nmWrpdRns 0
