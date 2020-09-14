@@ -1,7 +1,7 @@
 bossbar add warped_soul_shard "Warped Spirit Soul Shard"
 bossbar set minecraft:warped_soul_shard color purple
-bossbar set minecraft:warped_soul_shard style notched_12
-bossbar set minecraft:warped_soul_shard max 240
+bossbar set minecraft:warped_soul_shard style notched_6
+bossbar set minecraft:warped_soul_shard max 200
 bossbar set minecraft:warped_soul_shard players @a[tag=WarpedParty]
 
 scoreboard players set currWarpedStage WrpdStge 1
