@@ -2,11 +2,11 @@
     "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
         "title": {
-            "text": "The First Trial",
+            "text": "The Warped Spirit",
             "color": "dark_aqua"
         },
         "description": {
-            "text": "Defeat the Warped Mansion Boss."
+            "text": "Defeat the Warped Spirit."
         },
         "icon": {
             "item": "minecraft:ender_eye"
