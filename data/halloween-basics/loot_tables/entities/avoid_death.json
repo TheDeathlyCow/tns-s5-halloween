@@ -8,27 +8,7 @@
                     "type": "item",
                     "weight": 1,
                     "quality": 2,
-                    "name": "minecraft:potion",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": 1
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{CustomPotionEffects:[{Id:6b,Amplifier:5b,Duration:1},{Id:11b,Amplifier:5b,Duration:100},{Id:12b,Amplifier:0b,Duration:1200},{Id:16b,Amplifier:0b,Duration:1200},{Id:22b,Amplifier:4b,Duration:600}],CustomPotionColor:16580564}"
-                        },
-                        {
-                            "function": "set_name",
-                            "name": [
-                                {
-                                    "text": "Potion of Avoid Death",
-                                    "color": "gold",
-                                    "italic": false
-                                }
-                            ]
-                        }
-                    ]
+                    "name": "minecraft:totem_of_undying"
                 }
             ]
         }
