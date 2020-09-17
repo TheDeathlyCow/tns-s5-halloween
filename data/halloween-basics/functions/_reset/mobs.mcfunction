@@ -7,6 +7,8 @@ execute at @s run kill @e[tag=halloweenMob,distance=..500]
 execute at @e[type=minecraft:armor_stand,tag=mob_kill_cleaner,distance=..500] run kill @e[type=minecraft:item,distance=..1]
 kill @e[type=minecraft:armor_stand,tag=mob_kill_cleaner]
 
+kill @e[tag=halloweenBoss,distance=..500]
+
 # ====== summon new mobs at their markers ======
 
 # vindicators
