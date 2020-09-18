@@ -18,7 +18,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{warpedEssence:1b}"
+                            "tag": "{warpedEssence:1b,Enchantments:[{id:\"minecraft:binding_curse\",lvl:1s}]}"
                         },
                         {
                             "function": "set_name",
@@ -29,6 +29,13 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "looting_enchant",
+                            "count": {
+                                "min": 0,
+                                "max": 3
+                            }
                         }
                     ]
                 }

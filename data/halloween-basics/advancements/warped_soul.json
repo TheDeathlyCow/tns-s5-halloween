@@ -1,0 +1,65 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Warped Soul",
+            "color": "dark_purple"
+        },
+        "description": {
+            "text": "Obtain a full set of Warped Diamond armour.",
+            "color": "aqua"
+        },
+        "icon": {
+            "item": "minecraft:diamond_chestplate",
+            "enchantments": [{
+                "enchantment": "unbreaking",
+                "level": 10
+            }]
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "all_items": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {  
+                        "item": "minecraft:diamond_helmet",
+                        "enchantments" : [{
+                            "enchantment": "unbreaking",
+                            "levels": 10
+                        }]
+                    },
+                    {  
+                        "item": "minecraft:diamond_chestplate",
+                        "enchantments" : [{
+                            "enchantment": "unbreaking",
+                            "levels": 10
+                        }]
+                    },
+                    {  
+                        "item": "minecraft:diamond_leggings",
+                        "enchantments" : [{
+                            "enchantment": "unbreaking",
+                            "levels": 10
+                        }]
+                    },
+                    {  
+                        "item": "minecraft:diamond_boots",
+                        "enchantments" : [{
+                            "enchantment": "unbreaking",
+                            "levels": 10
+                        }]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 10
+    },
+    "parent": "halloween-basics:collect_warped_essence"
+}
