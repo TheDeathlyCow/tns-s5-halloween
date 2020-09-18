@@ -2,7 +2,7 @@
     "type": "chest",
     "pools": [
         {
-            "rolls": 1,
+            "rolls": 2,
             "bonus_rolls": 1,
             "entries": [
                 {
@@ -36,7 +36,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{Enchantments:[{id:\"minecraft:fire_aspect\",lvl:2s},{id:\"minecraft:looting\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:5s}],AttributeModifiers:[{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:2.2,Operation:0,UUID:[I;-2068725650,327698220,-2072190855,-33076748],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:6,Operation:0,UUID:[I;-740333146,1880706987,-1152591710,1743650919],Slot:\"mainhand\"}]}"
+                            "tag": "{Enchantments:[{id:\"minecraft:fire_aspect\",lvl:2s},{id:\"minecraft:looting\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:5s}],AttributeModifiers:[{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-1.6,Operation:0,UUID:[I;-2068725650,327698220,-2072190855,-33076748],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:6,Operation:0,UUID:[I;-740333146,1880706987,-1152591710,1743650919],Slot:\"mainhand\"}]}"
                         },
                         {
                             "function": "set_name",
@@ -59,15 +59,12 @@
                         {
                             "function": "set_count",
                             "count": 1
-                        },
-                        {
-                            "function": "enchant_randomly"
                         }
                     ]
                 },
                 {
                     "type": "item",
-                    "weight": 1,
+                    "weight": 2,
                     "quality": 1,
                     "name": "minecraft:iron_axe",
                     "functions": [
@@ -77,7 +74,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:4,Operation:0,UUID:[I;1082055085,-1405464708,-1446917127,-504430567],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:9,Operation:0,UUID:[I;742809568,-502120272,-1788739657,-895231983],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:0.9,Operation:0,UUID:[I;-780990756,2099266427,-1374241493,2035767168],Slot:\"mainhand\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.1,Operation:1,UUID:[I;1364407271,-1657649604,-1525816570,682929279],Slot:\"mainhand\"}]}"
+                            "tag": "{AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:4,Operation:0,UUID:[I;1082055085,-1405464708,-1446917127,-504430567],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:9,Operation:0,UUID:[I;742809568,-502120272,-1788739657,-895231983],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:0.9,Operation:0,UUID:[I;-780990756,2099266427,-1374241493,2035767168],Slot:\"mainhand\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.2,Operation:1,UUID:[I;1364407271,-1657649604,-1525816570,682929279],Slot:\"mainhand\"}]}"
                         },
                         {
                             "function": "enchant_randomly"
@@ -86,7 +83,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 3,
+                    "weight": 2,
                     "quality": 1,
                     "name": "minecraft:netherite_hoe",
                     "functions": [
@@ -102,7 +99,7 @@
             ]
         },
         {
-            "rolls": 3,
+            "rolls": 5,
             "entries": [
                 {
                     "type": "item",
@@ -203,7 +200,7 @@
             ]
         },
         {
-            "rolls": 1,
+            "rolls": 2,
             "bonus_rolls": 1,
             "entries": [
                 {
@@ -225,7 +222,7 @@
                     "name": "minecraft:potion",
                     "functions": [
                         {
-                            "function": "set_count",    
+                            "function": "set_count",
                             "count": 1
                         },
                         {
@@ -245,12 +242,7 @@
                             "count": 1
                         },
                         {
-                            "function": "enchant_randomly",
-                            "enchantments": [
-                                "sharpness",
-                                "looting",
-                                "unbreaking"
-                            ]
+                            "function": "enchant_randomly"
                         }
                     ]
                 },
@@ -344,6 +336,66 @@
                             "count": {
                                 "min": 1,
                                 "max": 12
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 2,
+            "bonus_rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diamond",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "quality": 2,
+                    "name": "minecraft:enchanted_golden_apple",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "minecraft:golden_apple",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:gold_ingot",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 5
                             }
                         }
                     ]

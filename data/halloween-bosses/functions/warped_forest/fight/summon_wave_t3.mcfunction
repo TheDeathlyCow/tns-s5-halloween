@@ -21,5 +21,5 @@ kill @e[tag=wave2_marker]
 scoreboard objectives add MnionCnt dummy
 scoreboard players set numMinions MnionCnt 0
 execute store result score numMinions MnionCnt if entity @e[tag=halloweenBossMinion]
-execute if score numMinions MnionCnt matches 11.. run kill @e[tag=halloweenBossMinion,sort=furthest,limit=4]
+execute if score numMinions MnionCnt matches 11.. at @e[tag=wave3_tp] run kill @e[tag=halloweenBossMinion,sort=furthest,limit=4]
 scoreboard objectives remove MnionCnt
