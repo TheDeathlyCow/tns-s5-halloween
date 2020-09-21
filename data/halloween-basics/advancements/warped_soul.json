@@ -11,10 +11,12 @@
         },
         "icon": {
             "item": "minecraft:diamond_chestplate",
-            "enchantments": [{
-                "enchantment": "unbreaking",
-                "level": 10
-            }]
+            "enchantments": [
+                {
+                    "enchantment": "unbreaking",
+                    "level": 10
+                }
+            ]
         },
         "frame": "goal",
         "show_toast": true,
@@ -26,33 +28,57 @@
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
-                    {  
+                    {
                         "item": "minecraft:diamond_helmet",
-                        "enchantments" : [{
-                            "enchantment": "unbreaking",
-                            "levels": 10
-                        }]
+                        "enchantments": [
+                            {
+                                "enchantment": "binding_curse",
+                                "levels": 2
+                            },
+                            {
+                                "enchantment": "thorns",
+                                "levels": 5
+                            }
+                        ]
                     },
-                    {  
+                    {
                         "item": "minecraft:diamond_chestplate",
-                        "enchantments" : [{
-                            "enchantment": "unbreaking",
-                            "levels": 10
-                        }]
+                        "enchantments": [
+                            {
+                                "enchantment": "unbreaking",
+                                "levels": 10
+                            }
+                        ]
                     },
-                    {  
+                    {
                         "item": "minecraft:diamond_leggings",
-                        "enchantments" : [{
-                            "enchantment": "unbreaking",
-                            "levels": 10
-                        }]
+                        "enchantments": [
+                            {
+                                "enchantment": "protection",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "fire_protection",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "blast_protection",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "projectile_protection",
+                                "levels": 4
+                            }
+                        ]
                     },
-                    {  
+                    {
                         "item": "minecraft:diamond_boots",
-                        "enchantments" : [{
-                            "enchantment": "unbreaking",
-                            "levels": 10
-                        }]
+                        "enchantments": [
+                            {
+                                "enchantment": "soul_speed",
+                                "levels": 5
+                            }
+                        ]
                     }
                 ]
             }

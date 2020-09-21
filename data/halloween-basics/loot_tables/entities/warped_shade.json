@@ -18,17 +18,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{warpedEssence:1b,Enchantments:[{id:\"minecraft:binding_curse\",lvl:1s}]}"
-                        },
-                        {
-                            "function": "set_name",
-                            "name": [
-                                {
-                                    "text": "Warped Essence",
-                                    "color": "dark_purple",
-                                    "italic": false
-                                }
-                            ]
+                            "tag": "{display:{Name:'{\"text\":\"Warped Essence\",\"color\":\"dark_purple\",\"italic\":false}'},warpedEssence:1b,Enchantments:[{id:'minecraft:binding_curse',lvl:1s}]}"
                         },
                         {
                             "function": "looting_enchant",
