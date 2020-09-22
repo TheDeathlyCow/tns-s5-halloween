@@ -1,9 +1,8 @@
 # tns-s5-halloween
  
 ## What's needed:
-* Bosses for the warped forest, crimson forest, lava ocean, and basalt deltas.
+* Bosses for the crimson forest, lava ocean, and basalt deltas.
 * Minions for the crimson forest, lava ocean, and basalt deltas.
-* Portal functionality.
 
 ## What's already there:
 * Chest loot tables.
