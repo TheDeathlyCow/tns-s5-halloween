@@ -3,9 +3,8 @@ tellraw @a[tag=WarpedParty] "[DEBUG] Wave 1 summoned at players!"
 
 tp @a[tag=WarpedParty] @e[tag=wave1_tp,limit=1]
 
-effect give @s minecraft:blindness 4 0 true
-effect give @s minecraft:nausea 4 0 true
-effect give @s minecraft:hunger 4 5 true
+effect give @s minecraft:blindness 1 0 true
+effect give @s minecraft:nausea 3 0 true
 
 execute at @e[tag=wave1_tp] run summon armor_stand ~3 ~ ~ {NoGravity:1b,Invulnerable:1b,Small:1b,Invisible:1b,PersistenceRequired:1b,Tags:["wave1_marker","mob_marker"]}
 execute at @e[tag=wave1_tp] run summon armor_stand ~-3 ~ ~ {NoGravity:1b,Invulnerable:1b,Small:1b,Invisible:1b,PersistenceRequired:1b,Tags:["wave1_marker","mob_marker"]}
