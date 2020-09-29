@@ -1,5 +1,5 @@
 # put this in a command block
-# execute if score numTokens tknsNdd matches 2
+# execute if score numTokens tknsNdd matches 2 run function halloween-bosses:crimson_forest/fight/loop
 
 execute as @e[tag=cmsnBoss] store result bossbar minecraft:piglin_king value run data get entity @s Health
 
