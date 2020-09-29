@@ -24,6 +24,9 @@
         }
     },
     "rewards": {
+        "loot": [
+            "halloween-basics:advancement_rewards/defeat_boss"
+        ],
         "experience": 200
     },
     "parent": "halloween-basics:enter_castle"

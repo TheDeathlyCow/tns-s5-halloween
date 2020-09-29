@@ -7,6 +7,8 @@ execute at @s run kill @e[tag=halloweenMob,distance=..500]
 execute at @e[type=minecraft:armor_stand,tag=mob_kill_cleaner,distance=..500] run kill @e[type=minecraft:item,distance=..1]
 kill @e[type=minecraft:armor_stand,tag=mob_kill_cleaner]
 
+kill @e[tag=halloweenBoss,distance=..500]
+
 # ====== summon new mobs at their markers ======
 
 # vindicators
@@ -44,6 +46,11 @@ execute as @e[type=minecraft:armor_stand,tag=tier3_piglin_boss,distance=..500] a
 execute as @e[type=minecraft:armor_stand,tag=tier1_skeleton_crewmate,distance=..500] at @s run function halloween-basics:spawn/tier1/skeleton_crewmate
 execute as @e[type=minecraft:armor_stand,tag=tier2_skeleton_boatswain,distance=..500] at @s run function halloween-basics:spawn/tier2/skeleton_boatswain
 execute as @e[type=minecraft:armor_stand,tag=tier3_skeleton_quartermaster,distance=..500] at @s run function halloween-basics:spawn/tier3/skeleton_quartermaster
+
+# warped shades
+execute as @e[type=minecraft:armor_stand,tag=tier1_warped_shade,distance=..500] at @s run function halloween-basics:spawn/tier1/warped_shade
+execute as @e[type=minecraft:armor_stand,tag=tier2_warped_shade,distance=..500] at @s run function halloween-basics:spawn/tier2/warped_shade
+execute as @e[type=minecraft:armor_stand,tag=tier3_warped_shade,distance=..500] at @s run function halloween-basics:spawn/tier3/warped_shade
 
 # ===== ensure all mobs are persistent ======
 #this is only cos i forgot to add the tag and im too lazy to go back over and fix it for everyone

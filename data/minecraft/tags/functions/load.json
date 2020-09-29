@@ -2,6 +2,7 @@
 	"values": [
 		"halloween-basics:setup",
 		"halloween-basics:portal/portal_loop",
-		"halloween-basics:river/river_loop"
+		"halloween-basics:river/river_loop",
+		"halloween-bosses:warped_forest/setup"
 	]
 }

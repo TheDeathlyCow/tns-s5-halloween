@@ -2,11 +2,11 @@
     "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
         "title": {
-            "text": "The Warped Mansion",
+            "text": "The Warped Vilage",
             "color": "dark_aqua"
         },
         "description": {
-            "text": "Enter the Warped Mansion."
+            "text": "Enter the Warped Village."
         },
         "icon": {
             "item": "minecraft:warped_stem"
