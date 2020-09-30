@@ -1,0 +1,91 @@
+{
+    "__comment": "FINISH THIS",
+    "display": {
+        "title": {
+            "text": "Warped Soul",
+            "color": "dark_purple"
+        },
+        "description": {
+            "text": "Obtain a full set of Warped Diamond armour.",
+            "color": "aqua"
+        },
+        "icon": {
+            "item": "minecraft:diamond_chestplate",
+            "enchantments": [
+                {
+                    "enchantment": "unbreaking",
+                    "level": 10
+                }
+            ]
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "all_items": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:diamond_helmet",
+                        "enchantments": [
+                            {
+                                "enchantment": "binding_curse",
+                                "levels": 2
+                            },
+                            {
+                                "enchantment": "thorns",
+                                "levels": 5
+                            }
+                        ]
+                    },
+                    {
+                        "item": "minecraft:diamond_chestplate",
+                        "enchantments": [
+                            {
+                                "enchantment": "unbreaking",
+                                "levels": 10
+                            }
+                        ]
+                    },
+                    {
+                        "item": "minecraft:diamond_leggings",
+                        "enchantments": [
+                            {
+                                "enchantment": "protection",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "fire_protection",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "blast_protection",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "projectile_protection",
+                                "levels": 4
+                            }
+                        ]
+                    },
+                    {
+                        "item": "minecraft:diamond_boots",
+                        "enchantments": [
+                            {
+                                "enchantment": "soul_speed",
+                                "levels": 5
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 10
+    },
+    "parent": "halloween-basics:collect_gold"
+}
