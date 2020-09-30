@@ -19,4 +19,4 @@ scoreboard players add numCrimsonPlayers cmsnPlyrsCnt 1
 tag @a[tag=cmsn_tp_nthr] remove cmsn_tp_nthr
 
 # this is only for the CRIMSON boss
-schedule function halloween-bosses:crimson_forest/enter_dungeon 10t
+execute if score numCrimsonPlayers cmsnPlyrsCnt matches 1 run schedule function halloween-bosses:crimson_forest/enter_dungeon 10t

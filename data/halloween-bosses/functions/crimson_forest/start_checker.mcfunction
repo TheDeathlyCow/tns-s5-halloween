@@ -1,4 +1,4 @@
-
+# say test check
 function halloween-bosses:crimson_forest/direction_checker
 function halloween-bosses:crimson_forest/time_checker
 
