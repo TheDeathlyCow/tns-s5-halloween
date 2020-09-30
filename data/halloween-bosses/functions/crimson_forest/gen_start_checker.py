@@ -4,7 +4,7 @@ It is mainly to have the execute if for each of the 9 slots in a dispenser.
 """
 
 DIR_TEMPLATE_FRONT = """execute as @e[type=minecraft:armor_stand,tag=dir_dispenser] at @s if block ~ ~ ~ minecraft:dropper[facing=east]{Items:[{Slot:"""
-DIRECTION_TEMPLATE_BACK = """b,id:"minecraft:compass",Count:1b,tag:{display:{Name:'{"text":"Direction","color":"aqua","bold":true,"italic":false}'},direction_compass:1b,LodestoneDimension:"minecraft:the_nether",LodestoneTracked:1b,LodestonePos:{X:-9455,Y:60,Z:10082}}}]} run function halloween-bosses:crimson_forest/accept_token"""
+DIRECTION_TEMPLATE_BACK = """b,id:"minecraft:compass",Count:1b,tag:{display:{Name:'{"text":"Direction","color":"aqua","bold":true,"italic":false}'},direction_compass:1b,LodestoneDimension:"minecraft:the_nether",LodestoneTracked:1b}}]} run function halloween-bosses:crimson_forest/accept_token"""
 
 TIME_TEMPLATE_FRONT = """execute as @e[type=minecraft:armor_stand,tag=time_dispenser] at @s if block ~ ~ ~ minecraft:dropper[facing=east]{Items:[{Slot:"""
 TIME_TEMPLATE_BACK = """b,id:"minecraft:clock",Count:1b,tag:{display:{Name:'{"text":"Time","color":"gold","bold":true,"italic":false}'},time_clock:1b}}]} run function halloween-bosses:crimson_forest/accept_token"""
