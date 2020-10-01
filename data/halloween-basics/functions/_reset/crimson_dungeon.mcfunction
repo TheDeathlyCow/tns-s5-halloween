@@ -1,3 +1,4 @@
+scoreboard players set cmsnCurrStage cmsnBssStg 0
 
 scoreboard players set numTokens tknsNdd 0
 bossbar remove minecraft:piglin_king
