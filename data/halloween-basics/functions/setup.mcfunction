@@ -34,3 +34,5 @@ scoreboard objectives add nmCmsnRns dummy
 scoreboard players add @a nmCmsnRns 0
 
 scoreboard objectives add rtrnToOvwldCmsn trigger
+
+scoreboard objectives add tickTimer dummy
