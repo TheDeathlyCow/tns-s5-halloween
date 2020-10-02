@@ -13,4 +13,4 @@ execute as @e[type=minecraft:armor_stand,tag=dir_dispenser] at @s run setblock ~
 execute as @e[type=minecraft:armor_stand,tag=cmsn_secret] at @s run setblock ~ ~ ~ barrel[facing=north]{LootTable:"halloween-bosses:chests/crimson_secret"}
 # advancement grant @p 
 
-function halloween-bosses:crimson_forest/start_checker
+# function halloween-bosses:crimson_forest/start_checker

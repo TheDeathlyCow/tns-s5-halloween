@@ -3,7 +3,9 @@
 
 # tp all mobs into the void
 # execute at @e[tag=halloweenMob,distance=..500] run summon armor_stand ~ ~ ~ {NoGravity:1b,Invulnerable:1b,Small:1b,Invisible:1b,PersistenceRequired:1b,Tags:["mob_kill_cleaner"]}
-execute at @s run tp @e[tag=halloweenMob,distance=..500] ~ ~-1000 ~
+tag @e[tag=halloweenMob,distance=..500] add clean_up
+execute at @s run tp @e[tag=clean_up] ~ ~-1000 ~
+kill @e[tag=clean_up]
 # execute at @e[type=minecraft:armor_stand,tag=mob_kill_cleaner,distance=..500] run kill @e[type=minecraft:item,distance=..1]
 # kill @e[type=minecraft:armor_stand,tag=mob_kill_cleaner]
 

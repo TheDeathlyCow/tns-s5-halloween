@@ -2,15 +2,14 @@
     "__comment": "FINISH THIS",
     "display": {
         "title": {
-            "text": "Warped Soul",
-            "color": "dark_purple"
+            "text": "Two-Legged Hoglin"
         },
         "description": {
-            "text": "Obtain a full set of Warped Diamond armour.",
-            "color": "aqua"
+            "text": "Obtain a full set of Hoglin armour.",
+            "color": "gold"
         },
         "icon": {
-            "item": "minecraft:diamond_chestplate",
+            "item": "minecraft:golden_chestplate",
             "enchantments": [
                 {
                     "enchantment": "unbreaking",
