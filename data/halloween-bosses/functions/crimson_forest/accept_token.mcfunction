@@ -1,7 +1,7 @@
 scoreboard players add numTokens tknsNdd 1
 
-setblock ~ ~ ~ air
-setblock ~ ~ ~ minecraft:dropper[facing=east]
+# setblock ~ ~ ~ air
+# setblock ~ ~ ~ minecraft:dropper[facing=east]
 
 playsound minecraft:block.anvil.destroy master @a[distance=..10] ~ ~ ~
 

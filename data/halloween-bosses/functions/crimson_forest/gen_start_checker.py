@@ -34,7 +34,20 @@ def gen_file(inType, item, filename, num_slots=9, block='minecraft:dropper', fac
     
     outfile.close()
 
+def gen_sub_files(inType, num_files=9, block='minecraft:dropper', facing='east'):
+    
+    for file_num in range(0, num_files):
+        outfile = open(f'accept_tokens/{inType}/slot_{file_num}.mcfunction', 'w')
+        outfile.write(TOP_COMMENT)
+        outfile.write(f"""replaceitem block ~ ~ ~ container.{file_num} minecraft:air\n""")
+        outfile.write(f"""function halloween-bosses:crimson_forest/accept_token""")
+        outfile.close()
+
+
 if __name__ == '__main__':
     gen_file(DIR_TYPE, COMPASS_ITEM, 'direction_checker.mcfunction')
     gen_file(TIME_TYPE, CLOCK_ITEM, 'time_checker.mcfunction')
+
+    gen_sub_files(DIR_TYPE)
+    gen_sub_files(TIME_TYPE)
 
