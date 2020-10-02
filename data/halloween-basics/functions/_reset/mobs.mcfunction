@@ -7,7 +7,7 @@ tag @e[tag=halloweenMob,distance=..500] add clean_up
 tag @e[tag=halloweenBoss,distance=..500] add clean_up
 execute at @s run tp @e[tag=clean_up] ~ ~-260 ~
 kill @e[tag=clean_up]
-
+    
 # say reset mobs
 # execute at @e[type=minecraft:armor_stand,tag=mob_kill_cleaner,distance=..500] run kill @e[type=minecraft:item,distance=..1]
 # kill @e[type=minecraft:armor_stand,tag=mob_kill_cleaner]

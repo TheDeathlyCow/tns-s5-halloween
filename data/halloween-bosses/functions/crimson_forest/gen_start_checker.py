@@ -35,12 +35,20 @@ def gen_file(inType, item, filename, num_slots=9, block='minecraft:dropper', fac
     outfile.close()
 
 def gen_sub_files(inType, num_files=9, block='minecraft:dropper', facing='east'):
+    """
+    This function generates a series of .mcfunction files in the directory accept_tokens/inType.
+    Each file is named slot_{number} where number is a number between 0 and num_files - 1 inclusive.
     
+    A slot file with name slot_n.mcfunction will generate with the following form:
+
+    replaceitem block ~ ~ ~ container.n minecraft:air
+    function halloween-bosses:crimson_forest/accept_token
+    """
     for file_num in range(0, num_files):
         outfile = open(f'accept_tokens/{inType}/slot_{file_num}.mcfunction', 'w')
         outfile.write(TOP_COMMENT)
-        outfile.write(f"""replaceitem block ~ ~ ~ container.{file_num} minecraft:air\n""")
-        outfile.write(f"""function halloween-bosses:crimson_forest/accept_token""")
+        outfile.write(f'replaceitem block ~ ~ ~ container.{file_num} minecraft:air\n')
+        outfile.write(f'function halloween-bosses:crimson_forest/accept_token')
         outfile.close()
 
 
