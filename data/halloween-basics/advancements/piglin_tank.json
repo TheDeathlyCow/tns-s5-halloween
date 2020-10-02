@@ -2,11 +2,10 @@
     "__comment": "FINISH THIS",
     "display": {
         "title": {
-            "text": "Warped Soul",
-            "color": "dark_purple"
+            "text": "Two Legged Hoglin"
         },
         "description": {
-            "text": "Obtain a full set of Warped Diamond armour.",
+            "text": "Obtain a full set of Hoglin armour.",
             "color": "aqua"
         },
         "icon": {
