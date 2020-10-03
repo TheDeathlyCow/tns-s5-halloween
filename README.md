@@ -2,7 +2,7 @@
 Welcome to the GitHub page for the TNS season 5 datapack!
 
 ## Wiki
-This GitHub has a wiki, available at https://github.com/TheDeathlyCow/tns-s5-hallowen/wiki.
+This GitHub has a wiki, available at https://github.com/TheDeathlyCow/tns-s5-halloween/wiki.
 
 ## Installation
 This is a Minecraft Datapack for version 1.16.3. It is installed by placing the download of this file in .minecraft/saves/[YOUR WORLD NAME]/datapacks and then typing the command `/reload` or by simply opening the world. If you are in creative mode, you should see a message confirming it has been reloaded. I may include a proper guide on how to actually set up the datapack in the future, but for now I don't have the time. However, I will be publishing walkthroughs on the wiki for each dungeon as they come out on TNS, so watch out for those! 
