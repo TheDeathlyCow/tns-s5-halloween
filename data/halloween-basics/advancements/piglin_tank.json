@@ -5,17 +5,11 @@
             "text": "Two-Legged Hoglin"
         },
         "description": {
-            "text": "Obtain a full set of Hoglin armour.",
-            "color": "gold"
+            "text": "Obtain a full set of Hoglin armour."
         },
         "icon": {
             "item": "minecraft:golden_chestplate",
-            "enchantments": [
-                {
-                    "enchantment": "unbreaking",
-                    "level": 10
-                }
-            ]
+            "nbt": "{display:{Name:'{\"text\":\"Hoglin\"}'},SkullOwner:{Id:\"8196c240-e96a-4434-b630-6b191ceeb480\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWJiOWJjMGYwMWRiZDc2MmEwOGQ5ZTc3YzA4MDY5ZWQ3Yzk1MzY0YWEzMGNhMTA3MjIwODU2MWI3MzBlOGQ3NSJ9fX0=\"}]}}}"
         },
         "frame": "goal",
         "show_toast": true,
@@ -28,20 +22,16 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:diamond_helmet",
+                        "item": "minecraft:player_head",
                         "enchantments": [
                             {
-                                "enchantment": "binding_curse",
-                                "levels": 2
-                            },
-                            {
-                                "enchantment": "thorns",
+                                "enchantment": "unbreaking",
                                 "levels": 5
                             }
                         ]
                     },
                     {
-                        "item": "minecraft:diamond_chestplate",
+                        "item": "minecraft:leather_chestplate",
                         "enchantments": [
                             {
                                 "enchantment": "unbreaking",
@@ -50,32 +40,20 @@
                         ]
                     },
                     {
-                        "item": "minecraft:diamond_leggings",
+                        "item": "minecraft:golden_leggings",
                         "enchantments": [
                             {
-                                "enchantment": "protection",
-                                "levels": 4
-                            },
-                            {
-                                "enchantment": "fire_protection",
-                                "levels": 4
-                            },
-                            {
-                                "enchantment": "blast_protection",
-                                "levels": 4
-                            },
-                            {
-                                "enchantment": "projectile_protection",
-                                "levels": 4
+                                "enchantment": "unbreaking",
+                                "levels": 10
                             }
                         ]
                     },
                     {
-                        "item": "minecraft:diamond_boots",
+                        "item": "minecraft:golden_boots",
                         "enchantments": [
                             {
-                                "enchantment": "soul_speed",
-                                "levels": 5
+                                "enchantment": "unbreaking",
+                                "levels": 10
                             }
                         ]
                     }
