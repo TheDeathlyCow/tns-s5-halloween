@@ -58,4 +58,3 @@ if __name__ == '__main__':
 
     gen_sub_files(DIR_TYPE)
     gen_sub_files(TIME_TYPE)
-
