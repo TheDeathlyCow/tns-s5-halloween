@@ -1,0 +1,67 @@
+{
+    "__comment": "FINISH THIS",
+    "display": {
+        "title": {
+            "text": "Two-Legged Hoglin"
+        },
+        "description": {
+            "text": "Obtain a full set of Hoglin armour."
+        },
+        "icon": {
+            "item": "minecraft:golden_chestplate"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "all_items": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:player_head",
+                        "enchantments": [
+                            {
+                                "enchantment": "unbreaking",
+                                "levels": 5
+                            }
+                        ]
+                    },
+                    {
+                        "item": "minecraft:leather_chestplate",
+                        "enchantments": [
+                            {
+                                "enchantment": "unbreaking",
+                                "levels": 10
+                            }
+                        ]
+                    },
+                    {
+                        "item": "minecraft:golden_leggings",
+                        "enchantments": [
+                            {
+                                "enchantment": "unbreaking",
+                                "levels": 10
+                            }
+                        ]
+                    },
+                    {
+                        "item": "minecraft:golden_boots",
+                        "enchantments": [
+                            {
+                                "enchantment": "unbreaking",
+                                "levels": 10
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 10
+    },
+    "parent": "halloween-basics:collect_gold"
+}

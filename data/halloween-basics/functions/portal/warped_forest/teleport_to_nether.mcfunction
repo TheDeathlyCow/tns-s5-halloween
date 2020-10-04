@@ -19,4 +19,4 @@ scoreboard players add numWarpedPlayers wrpdPlyrsCnt 1
 tag @a[tag=warpd_tp_nthr] remove warpd_tp_nthr
 
 # this is only for the WARPED boss
-schedule function halloween-bosses:warped_forest/enter_dungeon 10t
+execute if score numWarpedPlayers wrpdPlyrsCnt matches 1 run schedule function halloween-bosses:warped_forest/enter_dungeon 10t

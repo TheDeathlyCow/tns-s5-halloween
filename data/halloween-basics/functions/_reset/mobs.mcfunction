@@ -1,13 +1,18 @@
 # This should be called when players enter a dungeon to prevent despawning and lag.
 # Only affects mob markers within a 500 block radius of execution (should be enough for one dungeon without interfering with other dungeons).
 
-# kill all previous mobs and make sure their item drops are gone
-execute at @e[tag=halloweenMob,distance=..500] run summon armor_stand ~ ~ ~ {NoGravity:1b,Invulnerable:1b,Small:1b,Invisible:1b,PersistenceRequired:1b,Tags:["mob_kill_cleaner"]}
-execute at @s run kill @e[tag=halloweenMob,distance=..500]
-execute at @e[type=minecraft:armor_stand,tag=mob_kill_cleaner,distance=..500] run kill @e[type=minecraft:item,distance=..1]
-kill @e[type=minecraft:armor_stand,tag=mob_kill_cleaner]
+# tp all mobs into the void
+# execute at @e[tag=halloweenMob,distance=..500] run summon armor_stand ~ ~ ~ {NoGravity:1b,Invulnerable:1b,Small:1b,Invisible:1b,PersistenceRequired:1b,Tags:["mob_kill_cleaner"]}
+tag @e[tag=halloweenMob,distance=..500] add clean_up
+tag @e[tag=halloweenBoss,distance=..500] add clean_up
+execute at @s run tp @e[tag=clean_up] ~ ~-260 ~
+kill @e[tag=clean_up]
+    
+# say reset mobs
+# execute at @e[type=minecraft:armor_stand,tag=mob_kill_cleaner,distance=..500] run kill @e[type=minecraft:item,distance=..1]
+# kill @e[type=minecraft:armor_stand,tag=mob_kill_cleaner]
 
-kill @e[tag=halloweenBoss,distance=..500]
+# tp @e[tag=halloweenBoss,distance=..500] ~ ~-1000 ~
 
 # ====== summon new mobs at their markers ======
 

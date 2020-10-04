@@ -2,11 +2,11 @@
     "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
         "title": {
-            "text": "The Second Trial",
+            "text": "The Piglin King",
             "color": "dark_red"
         },
         "description": {
-            "text": "Defeat the Crimson Mansion Boss."
+            "text": "Defeat the Piglin King."
         },
         "icon": {
             "item": "minecraft:cooked_porkchop"
