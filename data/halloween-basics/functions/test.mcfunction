@@ -1,1 +1,1 @@
-tellraw @s "test!"
+tellraw @a "[DEBUG] the test function was called!"
