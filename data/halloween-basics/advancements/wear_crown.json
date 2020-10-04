@@ -1,0 +1,26 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Crown of Pigs",
+            "color": "gold"
+        },
+        "description": {
+            "text": "Equip the Crown of the Piglin King.",
+            "color": "red"
+        },
+        "icon": {
+            "item": "minecraft:golden_helmet"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "enterMansion": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "halloween-basics:defeat_crimson_boss"
+}
