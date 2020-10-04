@@ -14,3 +14,6 @@ execute as @e[type=minecraft:armor_stand,tag=cmsn_secret] at @s run setblock ~ ~
 # advancement grant @p 
 
 # function halloween-bosses:crimson_forest/start_checker
+
+execute at @e[type=minecraft:armor_stand,tag=exit_door] run fill ~ ~ ~ ~ ~2 ~ minecraft:chain[axis=z] replace minecraft:air
+execute at @e[type=minecraft:armor_stand,tag=time_dispenser] run fill ~ ~-1 ~1 ~ ~1 ~2 minecraft:chain[axis=z] replace minecraft:air
