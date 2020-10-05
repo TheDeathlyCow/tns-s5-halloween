@@ -1,5 +1,5 @@
 
-tellraw @a[tag=WarpedParty] "[DEBUG] Wave 1 summoned at players!"
+# tellraw @a[tag=WarpedParty] "[DEBUG] Wave 1 summoned at players!"
 
 tp @a[tag=WarpedParty] @e[tag=wave1_tp,limit=1]
 

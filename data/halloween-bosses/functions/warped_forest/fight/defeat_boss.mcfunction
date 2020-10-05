@@ -8,4 +8,5 @@ advancement grant @a[tag=WarpedParty] only halloween-basics:defeat_warped_boss
 bossbar remove minecraft:warped_soul_shard
 
 tellraw @a[tag=WarpedParty] {"text":"This gate will close in 60 seconds...","color":"aqua"}
-schedule function halloween-bosses:warped_forest/countdown/five_seconds 55s
+# schedule function halloween-bosses:warped_forest/countdown/five_seconds 55s
+scoreboard players set exitCountDown cntDwn 1100
