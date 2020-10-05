@@ -1,5 +1,5 @@
 
-kill @s
+effect give @s hunger 6 255
 
 advancement grant @s only halloween-basics:the_lie
 
