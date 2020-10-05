@@ -12,23 +12,7 @@ execute if score numCrimsonPlayers cmsnPlyrsCnt matches 1.. run execute if score
 scoreboard players remove scareCountDown tickTimer 1
 execute if score scareCountDown tickTimer matches 0 run function halloween-basics:traps/crimson_forest/clear_scare
 
-# scoreboard players remove cmsnThirty tickTimer 1
-# execute if score cmsnThirty tickTimer matches 0 run function halloween-bosses:crimson_forest/countdown/five_seconds
-
-# scoreboard players remove cmsnFive tickTimer 1
-# execute if score cmsnFive tickTimer matches 0 run function halloween-bosses:crimson_forest/countdown/four_seconds
-
-# scoreboard players remove cmsnFour tickTimer 1
-# execute if score cmsnFour tickTimer matches 0 run function halloween-bosses:crimson_forest/countdown/three_seconds
-
-# scoreboard players remove cmsnThree tickTimer 1
-# execute if score cmsnThree tickTimer matches 0 run function halloween-bosses:crimson_forest/countdown/two_seconds
-
-# scoreboard players remove cmsnTwo tickTimer 1
-# execute if score cmsnTwo tickTimer matches 0 run function halloween-bosses:crimson_forest/countdown/one_seconds
-
-# scoreboard players remove cmsnOne tickTimer 1
-# execute if score cmsnOne tickTimer matches 0 run function halloween-bosses:crimson_forest/exit
+execute at @e[tag=its_a_lie] as @p[tag=CrimsonParty,distance=..7] if block ~ ~ ~ cake[bites=1] run function halloween-basics:traps/crimson_forest/cake_trap
 
 
 # execute as @a[nbt={Inventory:[{Slot:103b,id:"minecraft:diamond_helmet"}]}] run say hi
