@@ -1,4 +1,4 @@
-tellraw @a[tag=WarpedParty] "[DEBUG] stage 3 start"
+# tellraw @a[tag=WarpedParty] "[DEBUG] stage 3 start"
 scoreboard players set currWarpedStage WrpdStge 3
 
 execute as @e[type=minecraft:armor_stand,tag=wave3_tp] at @s run spawnpoint @a[tag=WarpedParty] ~ ~ ~
@@ -6,4 +6,5 @@ summon slime ~ ~ ~ {DeathLootTable:"halloween-basics:entities/warped_shade",Pers
 playsound minecraft:entity.wither.hurt hostile @a[tag=WarpedParty] ~ ~ ~ 1 0
 
 function halloween-bosses:warped_forest/fight/stage_3_loop
-schedule function halloween-bosses:warped_forest/fight/wave3_loop 15s
+# schedule function halloween-bosses:warped_forest/fight/wave3_loop 15s
+scoreboard players set stage3CountDown cntDwn 300

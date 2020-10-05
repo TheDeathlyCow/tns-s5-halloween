@@ -9,4 +9,5 @@ summon slime ~ ~ ~ {DeathLootTable:"halloween-basics:entities/warped_shade",Pers
 playsound minecraft:entity.wither.spawn hostile @a[tag=WarpedParty] ~ ~ ~ 1 0.3
 
 function halloween-bosses:warped_forest/fight/stage_1_loop
-schedule function halloween-bosses:warped_forest/fight/wave1_loop 15s
+# schedule function halloween-bosses:warped_forest/fight/wave1_loop 15s
+scoreboard players set stage1CountDown cntDwn 300
