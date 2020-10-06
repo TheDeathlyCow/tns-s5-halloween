@@ -8,6 +8,9 @@ execute if score numTokens tknsNdd matches 2 run function halloween-bosses:crims
 # ===== start checkers =====
 execute if score numCrimsonPlayers cmsnPlyrsCnt matches 1.. run execute if score numTokens tknsNdd matches ..1 run function halloween-bosses:crimson_forest/start_checker
 
+execute if score numLavaPlayers seasPlyrsCnt matches 1.. run execute if score numKeys seasKeys matches ..2 run function halloween-bosses:lava_seas/key_checker
+
+
 # ===== timer stuff =====
 scoreboard players remove scareCountDown tickTimer 1
 execute if score scareCountDown tickTimer matches 0 run function halloween-basics:traps/crimson_forest/clear_scare

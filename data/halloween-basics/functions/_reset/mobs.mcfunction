@@ -48,6 +48,10 @@ execute as @e[type=minecraft:armor_stand,tag=tier2_piglin_brute,distance=..500] 
 execute as @e[type=minecraft:armor_stand,tag=tier3_piglin_boss,distance=..500] at @s run function halloween-basics:spawn/tier3/piglin_boss
 
 # skeleton
+execute as @e[type=minecraft:armor_stand,tag=tier1_melee_skeleton,distance=..500] at @s run function halloween-basics:spawn/tier1/melee_skeleton
+execute as @e[type=minecraft:armor_stand,tag=tier2_melee_skeleton,distance=..500] at @s run function halloween-basics:spawn/tier2/melee_skeleton
+execute as @e[type=minecraft:armor_stand,tag=tier3_melee_skeleton,distance=..500] at @s run function halloween-basics:spawn/tier3/melee_skeleton
+
 execute as @e[type=minecraft:armor_stand,tag=tier1_skeleton_crewmate,distance=..500] at @s run function halloween-basics:spawn/tier1/skeleton_crewmate
 execute as @e[type=minecraft:armor_stand,tag=tier2_skeleton_boatswain,distance=..500] at @s run function halloween-basics:spawn/tier2/skeleton_boatswain
 execute as @e[type=minecraft:armor_stand,tag=tier3_skeleton_quartermaster,distance=..500] at @s run function halloween-basics:spawn/tier3/skeleton_quartermaster

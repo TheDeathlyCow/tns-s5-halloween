@@ -10,6 +10,9 @@ execute as @e[type=minecraft:armor_stand,tag=time_chest] at @s run setblock ~ ~ 
 execute as @e[type=minecraft:armor_stand,tag=time_dispenser] at @s run setblock ~ ~ ~ dropper[facing=east]{CustomName:'{"text":"Time","color":"gold","bold":true,"italic":false}'}
 execute as @e[type=minecraft:armor_stand,tag=dir_dispenser] at @s run setblock ~ ~ ~ dropper[facing=east]{CustomName:'{"text":"Direction","color":"aqua","bold":true,"italic":false}'}
 
+
+execute as @e[type=minecraft:armor_stand,tag=cmsn_secret] at @s run setblock ~ ~ ~ minecraft:air
+execute as @e[type=minecraft:armor_stand,tag=cmsn_secret,distance=..500] at @s run kill @e[type=item,distance=..2]
 execute as @e[type=minecraft:armor_stand,tag=cmsn_secret] at @s run setblock ~ ~ ~ barrel[facing=north]{LootTable:"halloween-bosses:chests/crimson_secret"}
 # advancement grant @p 
 

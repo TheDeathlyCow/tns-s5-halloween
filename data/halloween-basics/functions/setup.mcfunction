@@ -6,6 +6,8 @@
 # seas = lava seas
 # svly = soul sand valley
 
+function halloween-bosses:lava_seas/setup
+
 tellraw @a[gamemode=creative] ["",{"text":"TNS Halloween Datapack successfully loaded! Check the repository for updates and for a wiki guide here: ","color":"green"},{"text":"https://github.com/TheDeathlyCow/tns-s5-halloween","underlined":true,"color":"aqua","clickEvent":{"action":"open_url","value":"https://github.com/TheDeathlyCow/tns-s5-halloween"}}]
 
 scoreboard objectives add chestAutoOn dummy
@@ -36,3 +38,12 @@ scoreboard players add @a nmCmsnRns 0
 scoreboard objectives add rtrnToOvwldCmsn trigger
 
 scoreboard objectives add tickTimer dummy
+
+# scoreboard setup for lava seas
+scoreboard objectives add seasPlyrsCnt dummy
+scoreboard players add numLavaPlayers seasPlyrsCnt 0
+
+scoreboard objectives add nmSeasRns dummy
+scoreboard players add @a nmSeasRns 0
+
+scoreboard objectives add rtrnToOvwldSeas trigger
