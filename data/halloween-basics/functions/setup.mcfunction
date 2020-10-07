@@ -47,3 +47,5 @@ scoreboard objectives add nmSeasRns dummy
 scoreboard players add @a nmSeasRns 0
 
 scoreboard objectives add rtrnToOvwldSeas trigger
+
+scoreboard objectives add entrdDng dummy

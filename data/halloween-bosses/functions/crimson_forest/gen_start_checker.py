@@ -6,8 +6,8 @@ It is mainly to have the execute if for each of the 9 slots in a dispenser.
 DIR_TYPE = 'dir'
 TIME_TYPE = 'time'
 
-COMPASS_ITEM = """id:"minecraft:compass",Count:1b,tag:{display:{Name:'{"text":"Direction","color":"aqua","bold":true,"italic":false}'},direction_compass:1b,LodestoneDimension:"minecraft:the_nether",LodestoneTracked:1b}"""
-CLOCK_ITEM = """id:"minecraft:clock",Count:1b,tag:{display:{Name:'{"text":"Time","color":"gold","bold":true,"italic":false}'},time_clock:1b}"""
+COMPASS_ITEM = """id:"minecraft:compass",Count:1b,tag:{display:{Name:'{"bold":true,"italic":false,"color":"aqua","text":"Direction"}'},direction_compass:1b}"""
+CLOCK_ITEM = """id:"minecraft:clock",Count:1b,tag:{display:{Name:'{"bold":true,"italic":false,"color":"gold","text":"Time"}'},time_clock:1b}"""
 
 TEMPLATE = """execute as @e[type=minecraft:armor_stand,tag={TYPE}_dispenser] at @s if block ~ ~ ~ {BLOCK}[facing={FACING}]{Items:[{Slot:{SLOT}b,{ITEM}}]} run function halloween-bosses:crimson_forest/accept_tokens/{TYPE}/slot_{SLOT}"""
 

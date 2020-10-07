@@ -4,8 +4,8 @@
 tag @s add cmsn_tp_ovwld
 
 # clear dungeon-specific items
-clear @s minecraft:compass{display:{Name:'{"text":"Direction","color":"aqua","bold":true,"italic":false}'},direction_compass:1b,LodestoneDimension:"minecraft:the_nether",LodestoneTracked:1b}
-clear @s minecraft:clock{display:{Name:'{"text":"Time","color":"gold","bold":true,"italic":false}'},time_clock:1b}
+clear @s minecraft:compass{display:{Name:'{"bold":true,"italic":false,"color":"aqua","text":"Direction"}'},direction_compass:1b}
+clear @s minecraft:clock{display:{Name:'{"bold":true,"italic":false,"color":"gold","text":"Time"}'},time_clock:1b}
 
 execute if entity @s[advancements={halloween-basics:defeat_crimson_boss=false}] run clear @s minecraft:gold_ingot{display:{Name:'{"italic":false,"color":"gold","text":"Piglin Gold"}'},Enchantments:[{id:"minecraft:fire_aspect",lvl:5s}]}
 
