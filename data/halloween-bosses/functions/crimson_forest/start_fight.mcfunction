@@ -1,7 +1,7 @@
 bossbar add piglin_king "Piglin King"
 bossbar set minecraft:piglin_king color red
 bossbar set minecraft:piglin_king style notched_6
-bossbar set minecraft:piglin_king max 300
+bossbar set minecraft:piglin_king max 250
 bossbar set minecraft:piglin_king players @a[tag=CrimsonParty]
 
 execute at @e[type=minecraft:armor_stand,tag=time_dispenser] run fill ~ ~-1 ~1 ~ ~1 ~2 minecraft:air replace minecraft:chain
