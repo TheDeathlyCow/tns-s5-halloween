@@ -1,0 +1,42 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Looking for Booty",
+            "color": "gold"
+        },
+        "description": {
+            "text": "Collect a stack of Pirate booty."
+        },
+        "icon": {
+            "item": "minecraft:gold_nugget"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "all_items": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {  
+                        "item": "minecraft:gold_nugget",
+                        "enchantments" : [{
+                            "enchantment": "looting",
+                            "levels": 3
+                        }],
+                        "count": {
+                            "min": 64
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 10
+    },
+    "parent": "halloween-basics:enter_lava"
+}

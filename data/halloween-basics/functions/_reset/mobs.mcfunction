@@ -56,6 +56,11 @@ execute as @e[type=minecraft:armor_stand,tag=tier1_skeleton_crewmate,distance=..
 execute as @e[type=minecraft:armor_stand,tag=tier2_skeleton_boatswain,distance=..500] at @s run function halloween-basics:spawn/tier2/skeleton_boatswain
 execute as @e[type=minecraft:armor_stand,tag=tier3_skeleton_quartermaster,distance=..500] at @s run function halloween-basics:spawn/tier3/skeleton_quartermaster
 
+# strider skeletons
+execute as @e[type=minecraft:armor_stand,tag=tier1_strider_skeleton_archer,distance=..500] at @s run function halloween-basics:spawn/tier1/strider_skeleton_archer
+execute as @e[type=minecraft:armor_stand,tag=tier2_strider_skeleton_archer,distance=..500] at @s run function halloween-basics:spawn/tier2/strider_skeleton_archer
+execute as @e[type=minecraft:armor_stand,tag=tier3_strider_skeleton_archer,distance=..500] at @s run function halloween-basics:spawn/tier3/strider_skeleton_archer
+
 # warped shades
 execute as @e[type=minecraft:armor_stand,tag=tier1_warped_shade,distance=..500] at @s run function halloween-basics:spawn/tier1/warped_shade
 execute as @e[type=minecraft:armor_stand,tag=tier2_warped_shade,distance=..500] at @s run function halloween-basics:spawn/tier2/warped_shade

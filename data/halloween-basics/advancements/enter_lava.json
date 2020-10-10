@@ -2,11 +2,11 @@
     "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
         "title": {
-            "text": "The Magma Sea",
+            "text": "Pirates of the Lava Seas",
             "color": "gold"
         },
         "description": {
-            "text": "Enter the Magma Sea.",
+            "text": "Enter the Pirate Adventure!.",
             "color": "red"
         },
         "icon": {
@@ -22,5 +22,5 @@
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "halloween-basics:defeat_basalt_boss"
+    "parent": "halloween-basics:defeat_crimson_boss"
 }

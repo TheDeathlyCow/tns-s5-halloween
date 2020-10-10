@@ -1,0 +1,41 @@
+{
+    "display": {
+        "title": {
+            "text": "Yo ho ho and a bottle of rum!",
+            "color": "dark_red"
+        },
+        "description": {
+            "text": "Drink a bottle of rum.",
+            "color": "red"
+        },
+        "icon": {
+            "item": "minecraft:potion"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "drunk": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:blindness":{},
+                    "minecraft:resistance":{},
+                    "minecraft:fire_resistance":{},
+                    "minecraft:nausea":{}
+                }
+            }
+        }
+    },
+    "requirement": [
+        [
+            "drunk"
+        ]
+    ],
+    "rewards": {
+        "experience": 10
+    },
+    "parent": "halloween-basics:enter_lava"
+}

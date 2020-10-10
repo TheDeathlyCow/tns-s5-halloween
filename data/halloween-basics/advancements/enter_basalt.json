@@ -22,5 +22,5 @@
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "halloween-basics:defeat_crimson_boss"
+    "parent": "halloween-basics:defeat_lava_boss"
 }

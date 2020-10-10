@@ -1,0 +1,4 @@
+execute as @e[tag=starboard_cannon,sort=random,limit=3,distance=..500] at @s run summon firework_rocket ~ ~ ~ {Life:0,LifeTime:15,Motion:[0.0,-0.05,0.5],FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Type:1,Trail:1b,Colors:[I;15261137],FadeColors:[I;12763842]}]}}}}
+execute as @e[tag=port_cannon,sort=random,limit=3,distance=..500] at @s run summon firework_rocket ~ ~ ~ {Life:0,LifeTime:15,Motion:[0.0,-0.05,-0.5],FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Type:1,Trail:1b,Colors:[I;15261137],FadeColors:[I;12763842]}]}}}}
+
+execute as @e[type=minecraft:firework_rocket] at @s run playsound minecraft:entity.firework_rocket.large_blast master @a[distance=..100] ~ ~ ~ 1 0.3

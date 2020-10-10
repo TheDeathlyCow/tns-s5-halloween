@@ -49,4 +49,4 @@ kill @e[type=minecraft:silverfish,name="chest_tier2_west"]
 kill @e[type=minecraft:silverfish,name="chest_tier3_west"]
 kill @e[type=minecraft:silverfish,name="chest_tier4_west"]
 
-execute if score isChestAuto chestAutoOn matches 1 run schedule function halloween-basics:mark/auto/chest 1t
+# execute if score isChestAuto chestAutoOn matches 1 run schedule function halloween-basics:mark/auto/chest 1t

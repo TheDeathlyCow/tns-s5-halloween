@@ -1,26 +1,6 @@
 {
     "type": "entity",
-    "pools": [
-        {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:tripwire_hook",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": 1
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{display:{Name:'{\"text\":\"Key to Captain\\'s Quarters\",\"italic\":false}'},cptKey:1b}"
-                        }
-                    ]
-                }
-            ]
-        },
+    "pools": [  
         {
             "rolls": 2,
             "entries": [
