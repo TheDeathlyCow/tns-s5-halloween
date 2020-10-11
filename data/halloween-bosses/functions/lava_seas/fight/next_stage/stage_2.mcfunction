@@ -1,4 +1,4 @@
-tellraw @a[tag=LavaParty] [{"text":"<☠ Captain Jack Arrow ☠>","color":"dark_gray","bold":true},{"text":" Avast ye crewmates, all hands on deck!","color":"gray","bold":false}]
+tellraw @a[tag=LavaParty] [{"text":"<☠ Captain Jack Arrow ☠>","color":"dark_gray","bold":true},{"text":" Heave ho! Here we go!","color":"gray","bold":false}]
 
 teleport @e[tag=seasBoss] ~ ~ ~
 
