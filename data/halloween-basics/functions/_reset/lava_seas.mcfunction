@@ -1,6 +1,7 @@
 # scoreboard players set cmsnCurrStage cmsnBssStg 0
 
 scoreboard players set numKeys seasKeys 0
+scoreboard players set currentSeasStage WrpdStge 0
 bossbar remove minecraft:lava_captain
 
 execute as @e[type=minecraft:armor_stand,tag=lava_dungeon_marker] at @s run function halloween-basics:_reset/chests

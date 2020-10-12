@@ -1,7 +1,8 @@
-tellraw @a[tag=LavaParty] [{"text":"<☠ Captain Jack Arrow ☠>","color":"dark_gray","bold":true},{"text":" Heave ho! Here we go!","color":"gray","bold":false}]
+tellraw @a[tag=LavaParty] [{"text":"<☠ Captain Jack Arrow ☠>","color":"dark_gray","bold":true},{"text":" Avast ye! All hands on deck!","color":"gray","bold":false}]
 
 teleport @e[tag=seasBoss] ~ ~ ~
 
+# these mobs can / should be adjusted
 function halloween-basics:spawn/tier1/skeleton_crewmate
 function halloween-basics:spawn/tier1/skeleton_crewmate
 function halloween-basics:spawn/tier1/melee_skeleton

@@ -12,4 +12,3 @@ execute as @e[tag=seas_struct_block] at @s run function halloween-bosses:lava_se
 # maybe add some particles to the parkour? or sounds?
 
 scoreboard players set currentSeasStage WrpdStge 3
-
