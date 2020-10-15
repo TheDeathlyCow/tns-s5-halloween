@@ -20,3 +20,5 @@ Each dungeon has an assocated 4 letter code that I use often in the scoreboard a
 
 ### Important note:
 ALL commands and loot tables should be created on https://mcstacker.net/ for consistent style (This is <i>VERY</i> important for NBT data especially). However, the enchant randomly function can be applied manually to loot tables.
+<br>
+Custom names should always be implemented with the `set_nbt` function, where `Name` and `Lore` elements are `'{"bold":bool,"italic":bool,"color":string,"text":string}'`. Schedule should be avoided in favour of a scoreboard timer. This is because paper is annoying.
