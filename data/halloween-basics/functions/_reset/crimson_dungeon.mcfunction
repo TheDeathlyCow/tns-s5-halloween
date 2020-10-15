@@ -9,3 +9,5 @@ scoreboard players set isResetCrimson rstCmsn 1
 scoreboard players set enteredCrimson entrdDng 0
 
 tellraw @a ["",{"text":"The Crimson Mansion was reset!","color":"red"}] 
+
+tellraw @a "pog!"

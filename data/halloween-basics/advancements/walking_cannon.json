@@ -1,0 +1,58 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Walking Cannon",
+            "color": "gold"
+        },
+        "description": {
+            "text": "Obtain the Portable Mortar.",
+            "color": "yellow"
+        },
+        "icon": {
+            "item": "minecraft:crossbow"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "all_items": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:crossbow",
+                        "enchantments": [
+                            {
+                                "enchantment": "unbreaking",
+                                "levels": 10
+                            },
+                            {
+                                "enchantment": "mending",
+                                "levels": 1
+                            },
+                            {
+                                "enchantment": "multishot",
+                                "levels": 1
+                            },
+                            {
+                                "enchantment": "piercing",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "quick_charge",
+                                "levels": 4
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 20
+    },
+    "parent": "halloween-basics:collect_booty"
+}

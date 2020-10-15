@@ -1,0 +1,73 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "He's a Pirate!",
+            "color": "gold"
+        },
+        "description": {
+            "text": "Obtain the Raider's armour, peg feet, and a pirate skeleton head.",
+            "color": "yellow"
+        },
+        "icon": {
+            "item": "minecraft:leather_boots"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "all_items": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:player_head",
+                        "enchantments": [
+                            {
+                                "enchantment": "fortune",
+                                "levels": 3
+                            }
+                        ]
+                    },
+                    {
+                        "item": "minecraft:netherite_chestplate",
+                        "enchantments": [
+                            {
+                                "enchantment": "thorns",
+                                "levels": 5
+                            }
+                        ]
+                    },
+                    {
+                        "item": "minecraft:chainmail_leggings",
+                        "enchantments": [
+                            {
+                                "enchantment": "unbreaking",
+                                "levels": 6
+                            }
+                        ]
+                    },
+                    {
+                        "item": "minecraft:leather_boots",
+                        "enchantments": [
+                            {
+                                "enchantment": "depth_strider",
+                                "levels": 5
+                            },
+                            {
+                                "enchantment": "feather_falling",
+                                "levels": 5
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 20
+    },
+    "parent": "halloween-basics:collect_booty"
+}
