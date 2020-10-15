@@ -5,4 +5,4 @@ execute if entity @s[tag=seas_stage4_archer] run data merge entity @e[tag=seasBo
 
 execute as @e[tag=seas_stage4,sort=furthest,limit=2] at @s run function halloween-bosses:lava_seas/pick_position/summon_mimmick
 
-scoreboard players set seasStage4Timer tickTimer 100
+scoreboard players set seasStage4Timer tickTimer 600

@@ -1,4 +1,3 @@
-execute as @e[tag=seas_struct_block] at @s run function halloween-bosses:lava_seas/fight/parkour_switcher/remove_parkour
 
 teleport @e[tag=seasBoss] ~ ~ ~
 
@@ -18,7 +17,9 @@ teleport @e[tag=seasBoss] ~ ~ ~
 
 scoreboard players set currentSeasStage WrpdStge 4
 
-playsound minecraft:music_disc.pigstep music @a[tag=LavaParty] ~ ~ ~ 
+data merge entity @e[type=minecraft:wither_skeleton,tag=seasBoss,limit=1] {Invulnerable:0b}
 
+execute as @a[distance=..200] at @s run playsound minecraft:music_disc.far master @s ~ ~ ~ 
+tag @a[tag=LavaParty] add seasFightingStage4
 function halloween-bosses:lava_seas/pick_position/next_position
 

@@ -4,9 +4,9 @@
 tag @s add seas_tp_ovwld
 
 # clear dungeon-specific items
-clear @s minecraft:tripwire_hook{display:{Name:'{"text":"Key to Captain\'s Quarters","italic":false}'},cptKey:1b}
+clear @s minecraft:tripwire_hook{display:{Name:'{"italic":false,"text":"Key to Captain\'s Quarters"}'},cptKey:1b}
 
-execute if entity @s[advancements={halloween-basics:defeat_lava_boss=false}] run clear @s minecraft:gold_nugget{display:{Name:'{"italic":false,"color":"gold","text":"Booty"}'},Enchantments:[{id:"minecraft:looting",lvl:10s}]}
+execute if entity @s[advancements={halloween-basics:defeat_lava_boss=false}] run clear @s minecraft:gold_nugget{display:{Name:'{"italic":false,"color":"gold","text":"Pirate Booty"}'},Enchantments:[{id:"minecraft:looting",lvl:3s}],booty:1b}
 
 gamemode survival @s
 tag @s remove LavaParty

@@ -15,7 +15,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{display:{Name:'{\"text\":\"Key to Captain\\'s Quarters\",\"italic\":false}'},cptKey:1b}"
+                            "tag": "{display:{Name:'{\"italic\":false,\"text\":\"Key to Captain\\'s Quarters\"}'},cptKey:1b}"
                         }
                     ]
                 }

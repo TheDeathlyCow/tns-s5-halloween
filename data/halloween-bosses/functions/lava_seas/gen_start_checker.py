@@ -4,7 +4,7 @@ It is mainly to have the execute if for each of the 9 slots in a dispenser.
 """
 
 KEY_TYPE = 'key'
-KEY_ITEM = """id:"minecraft:tripwire_hook",Count:1b,tag:{display:{Name:'{"text":"Key to Captain\\'s Quarters","italic":false}'},cptKey:1b}"""
+KEY_ITEM = """id:"minecraft:tripwire_hook",Count:1b,tag:{display:{Name:'{"italic":false,"text":"Key to Captain\\'s Quarters"}'},cptKey:1b}"""
 
 TEMPLATE = """execute as @e[type=minecraft:armor_stand,tag={TYPE}_dispenser] at @s if block ~ ~ ~ {BLOCK}[facing={FACING}]{Items:[{Slot:{SLOT}b,{ITEM}}]} run function halloween-bosses:lava_seas/accept_tokens/{TYPE}/slot_{SLOT}"""
 

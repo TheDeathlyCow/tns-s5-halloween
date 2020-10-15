@@ -8,4 +8,4 @@ execute as @e[type=minecraft:armor_stand,tag=crimson_dungeon_marker] at @s run f
 scoreboard players set isResetCrimson rstCmsn 1
 scoreboard players set enteredCrimson entrdDng 0
 
-tellraw @a ["",{"text":"The Crimson Mansion was reset!","color":"red"}]
+tellraw @a ["",{"text":"The Crimson Mansion was reset!","color":"red"}] 

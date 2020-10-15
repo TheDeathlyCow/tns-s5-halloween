@@ -2,8 +2,10 @@ tellraw @a[tag=LavaParty] [{"text":"<☠ Captain Jack Arrow ☠>","color":"dark_
 
 teleport @e[tag=seasBoss] ~ ~ ~
 
+data merge entity @e[type=minecraft:wither_skeleton,tag=seasBoss,limit=1] {Invulnerable:1b}
+
 execute as @e[tag=stage3_archer] at @s run function halloween-basics:spawn/tier2/skeleton_boatswain
-execute as @e[tag=stage3_archer] at @s run function halloween-basics:spawn/tier1/skeleton_crewmate
+# execute as @e[tag=stage3_archer] at @s run function halloween-basics:spawn/tier1/skeleton_crewmate
 
 # tag @e[tag=halloweenMob,type=minecraft:skeleton,distance=..5] add SeasStage3
 

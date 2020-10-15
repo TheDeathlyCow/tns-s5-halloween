@@ -5,5 +5,5 @@ execute as @e[tag=seasBoss] at @s store result bossbar lava_captain value run sc
 
 execute if entity @a[tag=LavaParty] run execute unless entity @e[tag=seasBoss] run function halloween-bosses:lava_seas/fight/defeat_boss
 
-execute at @e[tag=seas_boss_stage4_spawn] run teleport @a[tag=LavaParty,distance=15..] ~ ~ ~
+# execute at @e[tag=seas_boss_stage4_spawn] as @p[tag=seasFightingStage4] run teleport @s ~ ~ ~
 execute at @e[tag=seas_boss_stage4_spawn] run teleport @e[tag=seasBoss,distance=15..] ~ ~ ~

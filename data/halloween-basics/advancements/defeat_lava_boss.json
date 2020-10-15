@@ -2,15 +2,15 @@
     "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
         "title": {
-            "text": "Captain of the Lava Seas",
-            "color": "gold"
+            "text": "Captain Jack Arrow",
+            "color": "dark_red"
         },
         "description": {
             "text": "Defeat the Captain of the Lava Seas.",
-            "color": "dark_red"
+            "color": "goal"
         },
         "icon": {
-            "item": "minecraft:golden_axe"
+            "item": "minecraft:wither_skeleton_skull"
         },
         "frame": "challenge",
         "show_toast": true,
