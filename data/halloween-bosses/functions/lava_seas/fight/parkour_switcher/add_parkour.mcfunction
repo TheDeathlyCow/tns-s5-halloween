@@ -2,3 +2,5 @@ setblock ~ ~ ~ structure_block[mode=load]{name:"ship_parkour",posX:-9,posY:19,po
 setblock ~ ~-1 ~ redstone_block
 setblock ~ ~-1 ~ air
 setblock ~ ~ ~ air
+
+# execute as @a[tag=LavaParty] at @s run playsound entity.lightning_bolt.thunder master s ~ ~ ~

@@ -4,5 +4,7 @@ execute if entity @s[tag=seas_boss_stage4_spawn] run data merge entity @e[tag=se
 execute if entity @s[tag=seas_stage4_archer] run data merge entity @e[tag=seasBoss,limit=1] {HandItems:[{id:"minecraft:bow",Count:1b,tag:{display:{Name:'{"text":"Captain\'s Bow","color":"dark_gray","bold":true,"italic":false}',Lore:['{"text":"Personal Bow of Captain Jack Arrow"}']},Enchantments:[{id:"minecraft:power",lvl:5s}]}},{}]}
 
 execute as @e[tag=seas_stage4,sort=furthest,limit=2] at @s run function halloween-bosses:lava_seas/pick_position/summon_mimmick
+execute if score numLavaPlayers seasPlyrsCnt matches 2.. run effect give @e[type=minecraft:wither_skeleton,tag=seasMimmick] minecaft:resistance 999999 0
+execute if score numLavaPlayers seasPlyrsCnt matches 3.. run effect give @e[type=minecraft:wither_skeleton,tag=seasMimmick] minecaft:regeneration 999999 1
 
 scoreboard players set seasStage4Timer tickTimer 600
