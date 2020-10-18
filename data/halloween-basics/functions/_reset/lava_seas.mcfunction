@@ -1,5 +1,5 @@
 # scoreboard players set cmsnCurrStage cmsnBssStg 0
-
+gamerule keepInventory false
 scoreboard players set numKeys seasKeys 0
 scoreboard players set currentSeasStage WrpdStge 0
 bossbar remove minecraft:lava_captain

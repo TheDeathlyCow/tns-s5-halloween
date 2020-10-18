@@ -18,4 +18,5 @@ scoreboard players add numLavaPlayers seasPlyrsCnt 1
 tag @a[tag=seas_tp_nthr] remove seas_tp_nthr
 
 # this is only for the LAVA boss
+execute if score numLavaPlayers seasPlyrsCnt matches 1 run gamerule keepInventory true
 execute if score numLavaPlayers seasPlyrsCnt matches 1 run schedule function halloween-bosses:lava_seas/enter_dungeon 10t

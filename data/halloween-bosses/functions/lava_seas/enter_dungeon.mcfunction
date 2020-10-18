@@ -1,6 +1,6 @@
 
 # say stuff??
-
+gamerule keepInventory true
 execute as @e[type=minecraft:armor_stand,tag=key_dispenser] at @s run setblock ~ ~ ~ dropper[facing=east]{CustomName:'{"text":"Key","color":"dark_purple","bold":true,"italic":false}'}
 # advancement grant @p 
 
