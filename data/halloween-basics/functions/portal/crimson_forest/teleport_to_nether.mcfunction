@@ -8,8 +8,10 @@ gamemode adventure @s
 advancement grant @s only halloween-basics:enter_crimson
 advancement revoke @s only halloween-basics:defeat_crimson_boss
 # /tp -91.32 57.00 -306.49
-execute in minecraft:the_nether run tp @s 50 128 50
-execute in minecraft:the_nether run spawnpoint @s 50 128 50
+# execute in minecraft:the_nether run tp @s 50 128 50
+# execute in minecraft:the_nether run spawnpoint @s 50 128 50
+execute in minecraft:the_nether run tp @s -9440 38 9999
+execute in minecraft:the_nether run spawnpoint @s -9444 43 10057
 
 # execute if score isResetWarped rstWrpd matches 1 as @e[type=minecraft:armor_stand,tag=warped_dungeon_marker] at @s run schedule function halloween-basics:_reset/mobs 1s
 execute if score isResetCrimson rstCmsn matches 1 run scoreboard players set isResetCrimson rstCmsn 0

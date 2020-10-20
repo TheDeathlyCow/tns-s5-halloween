@@ -4,6 +4,7 @@
 		"halloween-basics:portal/portal_loop",
 		"halloween-basics:river/river_loop",
 		"halloween-bosses:warped_forest/setup",
-		"halloween-bosses:crimson_forest/setup"
+		"halloween-bosses:crimson_forest/setup",
+		"halloween-bosses:basalt_caves/setup"
 	]
 }

@@ -2,15 +2,15 @@
     "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
         "title": {
-            "text": "The Third Trial",
+            "text": "The Heart of the Volcano",
             "color": "gold"
         },
         "description": {
-            "text": "Defeat the Volcano Boss.",
-            "color": "dark_red"
+            "text": "Defeat the Heart of the Volcano.",
+            "color": "yellow"
         },
         "icon": {
-            "item": "minecraft:fire_charge"
+            "item": "minecraft:blaze_rod"
         },
         "frame": "challenge",
         "show_toast": true,

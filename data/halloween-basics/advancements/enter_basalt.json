@@ -2,12 +2,12 @@
     "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
         "title": {
-            "text": "The Volcano",
-            "color": "gold"
+            "text": "The Basalt Caverns",
+            "color": "black"
         },
         "description": {
-            "text": "Enter the Volcano.",
-            "color": "red"
+            "text": "Enter the Basalt Caverns.",
+            "color": "gray"
         },
         "icon": {
             "item": "minecraft:basalt"

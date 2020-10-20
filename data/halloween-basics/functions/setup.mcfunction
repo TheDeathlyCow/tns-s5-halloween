@@ -49,3 +49,12 @@ scoreboard players add @a nmSeasRns 0
 scoreboard objectives add rtrnToOvwldSeas trigger
 
 scoreboard objectives add entrdDng dummy
+
+# scoreboard setup for basalt caves
+scoreboard objectives add bsltPlyrsCnt dummy
+scoreboard players add numBasaltPlayers bsltPlyrsCnt 0
+
+scoreboard objectives add nmBsltRns dummy
+scoreboard players add @a nmBsltRns 0
+
+scoreboard objectives add rtrnToOvwldBslt trigger

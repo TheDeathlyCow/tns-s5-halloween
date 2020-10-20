@@ -13,7 +13,9 @@ tag @s remove LavaParty
 scoreboard players remove numLavaPlayers seasPlyrsCnt 1
 execute if score numLavaPlayers seasPlyrsCnt matches ..0 run function halloween-basics:_reset/lava_seas
 
-execute in minecraft:overworld run tp @s -50 70 -50
-execute in minecraft:overworld run spawnpoint @s -50 70 -50
+# execute in minecraft:overworld run tp @s -50 70 -50
+# execute in minecraft:overworld run spawnpoint @s -50 70 -50
+execute in minecraft:overworld run tp @s 195 66 -880
+execute in minecraft:overworld run spawnpoint @s 195 66 -880
 
 tag @a[tag=seas_tp_ovwld] remove seas_tp_ovwld

@@ -4,7 +4,7 @@ summon wither_skeleton ~ ~ ~ {PersistenceRequired:1b,DeathLootTable:"halloween-b
 
 # execute if score numLavaPlayers seasPlyrsCnt matches 1 run effect give @e[type=minecraft:wither_skeleton,tag=seasExtraTag] weakness 999999 0 true
 # execute if score numCrimsonPlayers cmsnPlyrsCnt matches 2 run effect give @e[type=minecraft:piglin_brute,tag=cmsnBoss] weakness 999999 0 true
-execute if score numLavaPlayers seasPlyrsCnt matches 2.. run effect give @e[type=minecraft:wither_skeleton,tag=seasExtraTag] minecaft:resistance 999999 0
-execute if score numLavaPlayers seasPlyrsCnt matches 3.. run effect give @e[type=minecraft:wither_skeleton,tag=seasExtraTag] minecaft:regeneration 999999 1
+execute if score numLavaPlayers seasPlyrsCnt matches 2.. run effect give @e[type=minecraft:wither_skeleton,tag=seasExtraTag] minecraft:resistance 999999 0
+execute if score numLavaPlayers seasPlyrsCnt matches 3.. run effect give @e[type=minecraft:wither_skeleton,tag=seasExtraTag] minecraft:regeneration 999999 1
 
 function halloween-bosses:lava_seas/fight/next_stage/stage_1

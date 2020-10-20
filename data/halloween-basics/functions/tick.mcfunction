@@ -11,8 +11,13 @@ execute if score numCrimsonPlayers cmsnPlyrsCnt matches 1.. run execute if score
 
 execute if score numLavaPlayers seasPlyrsCnt matches 1.. run execute if score numKeys seasKeys matches ..2 run function halloween-bosses:lava_seas/key_checker
 
+execute if score currentBasaltStage WrpdStge matches 0 run execute if entity @a[tag=BasaltParty] run function halloween-bosses:basalt_caves/start_checker
+execute if score currentBasaltStage WrpdStge matches 1.. run execute if entity @a[tag=BasaltParty] run function halloween-bosses:basalt_caves/fight/check_health
+
+# ==== auto markers ====
 execute if score isCannonAuto chestAutoOn matches 1 run function halloween-basics:mark/auto/cannons
 execute if score isChestAuto chestAutoOn matches 1 run function halloween-basics:mark/auto/chest
+execute if score isOreAuto chestAutoOn matches 1 run function halloween-basics:mark/auto/ore_vein
 
 
 # ===== timer stuff =====

@@ -10,7 +10,9 @@ tag @a[tag=warpd_tp_ovwld,tag=WarpedParty] remove WarpedParty
 scoreboard players remove numWarpedPlayers wrpdPlyrsCnt 1
 execute if score numWarpedPlayers wrpdPlyrsCnt matches ..0 run function halloween-basics:_reset/warped_dungeon
 
-execute in minecraft:overworld run tp @a[tag=warpd_tp_ovwld] 0 70 0
-execute in minecraft:overworld run spawnpoint @a[tag=warpd_tp_ovwld] 0 70 0
+# execute in minecraft:overworld run tp @a[tag=warpd_tp_ovwld] 0 70 0
+# execute in minecraft:overworld run spawnpoint @a[tag=warpd_tp_ovwld] 0 70 0
+execute in minecraft:overworld run tp @a[tag=warpd_tp_ovwld] -420 83 -45
+execute in minecraft:overworld run spawnpoint @a[tag=warpd_tp_ovwld] -420 83 -45
 
 tag @a[tag=warpd_tp_ovwld] remove warpd_tp_ovwld
