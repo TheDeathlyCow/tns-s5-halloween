@@ -3,11 +3,11 @@
     "display": {
         "title": {
             "text": "The Basalt Caverns",
-            "color": "black"
+            "color": "gray"
         },
         "description": {
             "text": "Enter the Basalt Caverns.",
-            "color": "gray"
+            "color": "white"
         },
         "icon": {
             "item": "minecraft:basalt"
