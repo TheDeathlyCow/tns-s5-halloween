@@ -9,6 +9,7 @@ scoreboard players set currentBasaltStage WrpdStge -1
 advancement grant @a[tag=BasaltParty] only halloween-basics:defeat_basalt_boss
 bossbar remove minecraft:bslt_heart
 
+execute at @e[tag=bslt_exit_button] run function halloween-bosses:basalt_caves/place_exit_button
 # execute at @e[tag=seas_boss_stage4_spawn] run setblock ~ ~ ~ minecraft:stone_button[face=floor]
 # execute at @e[tag=seas_boss_stage4_spawn] run setblock ~ ~-2 ~ command_block{Command:"function halloween-bosses:lava_seas/exit"} replace
 # execute at @e[type=minecraft:armor_stand,tag=exit_door] run fill ~ ~ ~ ~ ~2 ~ minecraft:air replace minecraft:chain[axis=z]
