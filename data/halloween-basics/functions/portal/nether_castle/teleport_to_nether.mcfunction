@@ -1,6 +1,6 @@
 # tag @a[dz=3,dy=5] add warpd_tp_nthr
 # tag @a[dz=-3,dy=5] add warpd_tp_nthr
-
+# say to the nether
 tag @s add ValleyParty
 
 gamemode adventure @s
@@ -15,6 +15,6 @@ execute in minecraft:the_nether run spawnpoint @s 500 128 500
 scoreboard players add numValleyPlayers svlyPlyrsCnt 1
 
 # this is only for the LAVA boss
-gamerule keepInventory true
+# gamerule keepInventory true
 execute if score numValleyPlayers svlyPlyrsCnt matches 1 run scoreboard players set currValleyBossStage svlyCounter 0
 execute if score numValleyPlayers svlyPlyrsCnt matches 1 run scoreboard players set completeValleyChallenges svlyCounter 0
