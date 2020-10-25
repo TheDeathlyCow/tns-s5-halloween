@@ -1,0 +1,1 @@
+execute if entity @a[tag=SvlyWrpd] run function halloween-bosses:nether_castle/wrpd/tick

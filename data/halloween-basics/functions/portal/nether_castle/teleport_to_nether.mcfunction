@@ -16,5 +16,3 @@ scoreboard players add numValleyPlayers svlyPlyrsCnt 1
 
 # this is only for the LAVA boss
 # gamerule keepInventory true
-execute if score numValleyPlayers svlyPlyrsCnt matches 1 run scoreboard players set currValleyBossStage svlyCounter 0
-execute if score numValleyPlayers svlyPlyrsCnt matches 1 run scoreboard players set completeValleyChallenges svlyCounter 0

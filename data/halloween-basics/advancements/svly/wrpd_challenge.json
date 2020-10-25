@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "The Warped Portals",
+            "color": "dark_purple"
+        },
+        "description": {
+            "text": "Complete the Warped Portals Challenge.",
+            "color": "aqua"
+        },
+        "icon": {
+            "item": "minecraft:warped_stem"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "enterMansion": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "halloween-basics:enter_castle"
+}
