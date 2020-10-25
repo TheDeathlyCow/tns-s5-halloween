@@ -1,0 +1,117 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Magma Bender",
+            "color": "gold"
+        },
+        "description": {
+            "text": "Obtain a full set of Magma Armour.",
+            "color": "yellow"
+        },
+        "icon": {
+            "item": "minecraft:golden_chestplate"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "all_items": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:player_head",
+                        "enchantments": [
+                            {
+                                "enchantment": "fire_protection",
+                                "levels": 10
+                            },
+                            {
+                                "enchantment": "blast_protection",
+                                "levels": 5
+                            },
+                            {
+                                "enchantment": "thorns",
+                                "levels": 5
+                            },
+                            {
+                                "enchantment": "fire_aspect",
+                                "levels": 5
+                            }
+                        ]
+                    },
+                    {
+                        "item": "minecraft:golden_chestplate",
+                        "enchantments": [
+                            {
+                                "enchantment": "thorns",
+                                "levels": 5
+                            },
+                            {
+                                "enchantment": "fire_protection",
+                                "levels": 10
+                            },
+                            {
+                                "enchantment": "blast_protection",
+                                "levels": 5
+                            },
+                            {
+                                "enchantment": "unbreaking",
+                                "levels": 10
+                            }
+                        ]
+                    },
+                    {
+                        "item": "minecraft:golden_leggings",
+                        "enchantments": [
+                            {
+                                "enchantment": "thorns",
+                                "levels": 5
+                            },
+                            {
+                                "enchantment": "fire_protection",
+                                "levels": 10
+                            },
+                            {
+                                "enchantment": "blast_protection",
+                                "levels": 5
+                            },
+                            {
+                                "enchantment": "unbreaking",
+                                "levels": 10
+                            }
+                        ]
+                    },
+                    {
+                        "item": "minecraft:golden_boots",
+                        "enchantments": [
+                            {
+                                "enchantment": "thorns",
+                                "levels": 5
+                            },
+                            {
+                                "enchantment": "fire_protection",
+                                "levels": 10
+                            },
+                            {
+                                "enchantment": "blast_protection",
+                                "levels": 5
+                            },
+                            {
+                                "enchantment": "unbreaking",
+                                "levels": 10
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 20
+    },
+    "parent": "halloween-basics:collect_magma_essence"
+}

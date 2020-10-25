@@ -1,0 +1,46 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "One Pickaxe to Rule them All",
+            "color": "gold"
+        },
+        "description": {
+            "text": "Forge the One Pickaxe.",
+            "color": "yellow"
+        },
+        "icon": {
+            "item": "minecraft:netherite_pickaxe"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "all_items": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:netherite_pickaxe",
+                        "enchantments": [
+                            {
+                                "enchantment": "efficiency",
+                                "levels": 7
+                            },
+                            {
+                                "enchantment": "fortune",
+                                "levels": 5
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 50
+    },
+    "parent": "halloween-basics:collect_magma_essence"
+}

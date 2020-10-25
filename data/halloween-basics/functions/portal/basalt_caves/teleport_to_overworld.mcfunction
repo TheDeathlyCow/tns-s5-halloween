@@ -17,6 +17,10 @@ execute if entity @s[advancements={halloween-basics:defeat_basalt_boss=false}] r
 execute if entity @s[advancements={halloween-basics:defeat_basalt_boss=false}] run clear @s minecraft:redstone_block
 execute if entity @s[advancements={halloween-basics:defeat_basalt_boss=false}] run clear @s minecraft:ancient_debris
 
+execute if entity @s[advancements={halloween-basics:defeat_basalt_boss=false}] run clear @s minecraft:iron_ingot
+execute if entity @s[advancements={halloween-basics:defeat_basalt_boss=false}] run clear @s minecraft:gold_ingot
+execute if entity @s[advancements={halloween-basics:defeat_basalt_boss=false}] run clear @s minecraft:diamond
+execute if entity @s[advancements={halloween-basics:defeat_basalt_boss=false}] run clear @s minecraft:emerald
 
 gamemode survival @s
 tag @s remove BasaltParty

@@ -58,3 +58,14 @@ scoreboard objectives add nmBsltRns dummy
 scoreboard players add @a nmBsltRns 0
 
 scoreboard objectives add rtrnToOvwldBslt trigger
+
+# scoreboard setup for soul sand valley
+scoreboard objectives add svlyPlyrsCnt dummy
+scoreboard players add numValleyPlayers svlyPlyrsCnt 0
+
+scoreboard objectives add nmSvlyRns dummy
+scoreboard players add @a nmSvlyRns 0
+
+scoreboard objectives add rtrnToOvwldSvly trigger
+
+scoreboard objectives add svlyCounter dummy

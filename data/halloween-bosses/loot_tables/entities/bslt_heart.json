@@ -37,7 +37,7 @@
                 {
                     "type": "item",
                     "weight": 1,
-                    "name": "minecraft:magma_cream",
+                    "name": "minecraft:netherite_scrap",
                     "functions": [
                         {
                             "function": "set_count",
