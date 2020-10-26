@@ -73,3 +73,9 @@ scoreboard objectives add svlyCounter dummy
 scoreboard objectives add svlyDeaths deathCount 
 
 scoreboard players add cmsnRoom svlyCounter 0
+
+# speed running timer for svly
+scoreboard objectives add svlyTime dummy
+scoreboard players set ticksPerMinute svlyTime 20
+scoreboard objectives add svlyTimePrev dummy
+scoreboard objectives add svlyBestTime dummy "Best Valley Time"

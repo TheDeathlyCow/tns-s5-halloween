@@ -9,10 +9,6 @@ execute at @e[tag=svly_wrpd_entrance] run function halloween-bosses:nether_castl
 execute at @e[tag=svly_seas_entrance] run function halloween-bosses:nether_castle/seas/close_entrance
 execute at @e[tag=svly_bslt_entrance] run function halloween-bosses:nether_castle/bslt/close_entrance
 
-execute at @e[tag=svly_piglin1] run function halloween-basics:spawn/tier1/piglin_warrior
-execute at @e[tag=svly_piglin2] run function halloween-basics:spawn/tier2/piglin_brute
-execute at @e[tag=svly_piglin3] run function halloween-basics:spawn/tier3/piglin_boss
-
 execute as @e[tag=halloweenMob] run data merge entity @s {PersistenceRequired:1b}
 
 tag @a[tag=ValleyParty] add SvlyCmsn

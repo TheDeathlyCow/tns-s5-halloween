@@ -16,3 +16,5 @@ scoreboard players add numValleyPlayers svlyPlyrsCnt 1
 
 # this is only for the LAVA boss
 # gamerule keepInventory true
+
+scoreboard players set @s svlyTime 0

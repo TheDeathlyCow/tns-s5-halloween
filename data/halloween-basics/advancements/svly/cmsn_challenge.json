@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "The Piglin Halls",
+            "color": "dark_red"
+        },
+        "description": {
+            "text": "Complete the Piglin Halls Challenge.",
+            "color": "gold"
+        },
+        "icon": {
+            "item": "minecraft:crimson_stem"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "enterMansion": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "halloween-basics:svly/wrpd_challenge"
+}

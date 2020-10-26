@@ -9,12 +9,10 @@ clear @s minecraft:wither_skeleton_skull{CanPlaceOn:["minecraft:end_rod"]}
 execute if entity @s[advancements={halloween-basics:defeat_castle=false}] run clear @s minecraft:blaze_powder{display:{Name:'{"italic":false,"color":"gold","text":"Magma Essence"}'},magmaEssence:1b,Enchantments:[{id:'minecraft:fire_aspect',lvl:3s}]}
 
 # clear mineral blocks
-
-
-gamemode survival @s
-tag @s remove ValleyParty
 scoreboard players remove numValleyPlayers svlyPlyrsCnt 1
 execute if score numValleyPlayers svlyPlyrsCnt matches ..0 run function halloween-basics:_reset/nether_castle
+gamemode survival @s
+tag @s remove ValleyParty
 
 execute in minecraft:overworld run tp @s -50 70 -50
 execute in minecraft:overworld run spawnpoint @s -50 70 -50
