@@ -69,3 +69,7 @@ scoreboard players add @a nmSvlyRns 0
 scoreboard objectives add rtrnToOvwldSvly trigger
 
 scoreboard objectives add svlyCounter dummy
+
+scoreboard objectives add svlyDeaths deathCount 
+
+scoreboard players add cmsnRoom svlyCounter 0

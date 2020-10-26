@@ -9,3 +9,4 @@ title @a[tag=SvlyWrpd] title {"text":"The Warped Portals","color":"dark_aqua","b
 title @a[tag=SvlyWrpd] subtitle {"text":"Go where only the blind can see","color":"aqua"}
 tellraw @a[tag=SvlyWrpd] {"text":"Go where only the blind can see...","color":"aqua"}
 
+tag @a[tag=svlyWrpdPerfect] remove svlyWrpdPerfect

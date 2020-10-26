@@ -9,5 +9,5 @@ tag @a[tag=SvlyWrpd] remove SvlyWrpd
 execute at @e[tag=svly_wrpd_door,limit=1] run function halloween-bosses:nether_castle/wrpd/open_door
 execute at @e[tag=svly_wrpd_entrance] run function halloween-bosses:nether_castle/wrpd/close_entrance
 
-scoreboard players add completeValleyChallenges svlyCounter 1
-
+advancement grant @a[tag=svlyWrpdPerfect] only halloween-basics:svly/perfect_wrpd
+tag @a[tag=svlyWrpdPerfect] remove svlyWrpdPerfect

@@ -1,5 +1,6 @@
 teleport @a[tag=ValleyParty] @e[tag=svly_wrpd_entrance,limit=1]
 
+execute at @e[tag=svly_wprd_entrance] run spawnpoint @a[tag=SvlyCmsn] ~ ~ ~
 execute at @e[tag=svly_wrpd_entrance] run setblock ~1 ~1 ~ air
 execute at @e[tag=svly_wrpd_entrance] run setblock ~ ~1 ~ air
 execute at @e[tag=svly_wrpd_entrance] run setblock ~-1 ~1 ~ air
@@ -14,3 +15,5 @@ tag @a[tag=ValleyParty] add SvlyWrpd
 title @a[tag=SvlyWrpd] title {"text":"The Warped Portals","color":"dark_aqua","bold":true}
 title @a[tag=SvlyWrpd] subtitle {"text":"Go where only the blind can see","color":"aqua"}
 tellraw @a[tag=SvlyWrpd] {"text":"Go where only the blind can see...","color":"aqua"}
+
+tag @a[tag=SvlyWrpd] add svlyWrpdPerfect

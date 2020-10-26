@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "Warped Mind",
+            "color": "dark_purple"
+        },
+        "description": {
+            "text": "Complete the Warped Portals Challenge without making any mistakes.",
+            "color": "aqua"
+        },
+        "icon": {
+            "item": "minecraft:nether_star"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "enterMansion": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "halloween-basics:enter_castle"
+}

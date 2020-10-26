@@ -4,15 +4,25 @@ execute at @e[tag=svly_wrpd_entrance] run function halloween-bosses:nether_castl
 execute at @e[tag=svly_wrpd_entrance] run function halloween-bosses:nether_castle/bslt/close_entrance
 
 execute at @e[tag=svly_wrpd_shulker] run data merge block ~ ~ ~ {Items:[{Slot:13b,id:"minecraft:wither_skeleton_skull",Count:1b,tag:{CanPlaceOn:["minecraft:end_rod"]}}]}
+execute at @e[tag=svly_cmsn_shulker] run data merge block ~ ~ ~ {Items:[{Slot:13b,id:"minecraft:wither_skeleton_skull",Count:1b,tag:{CanPlaceOn:["minecraft:end_rod"]}}]}
+
+
+scoreboard players set cmsnRoom svlyCounter 0
 
 execute at @e[tag=svly_wrpd_door,limit=1] run function halloween-bosses:nether_castle/wrpd/close_door
+execute at @e[tag=svly_cmsn_door,limit=1] run function halloween-bosses:nether_castle/cmsn/close_door
+
 
 tag @a[tag=SvlyWrpd] remove SvlyWrpd
+tag @a[tag=SvlyCmsn] remove SvlyCmsn
 
 execute as @e[type=minecraft:armor_stand,tag=svly_dungeon_marker] at @s run function halloween-basics:_reset/chests
 execute as @e[type=minecraft:armor_stand,tag=svly_dungeon_marker] at @s run function halloween-basics:_reset/mobs
 
 scoreboard players set currValleyBossStage svlyCounter 0
 scoreboard players set completeValleyChallenges svlyCounter 0
+
+execute as @e[tag=svly_skull] run tag @s add svly_no_skull
+execute at @e[tag=svly_skull] run setblock ~ ~ ~ air
 
 tellraw @a {"text":"The Lost Valley of Souls has been reset!","color":"red"}

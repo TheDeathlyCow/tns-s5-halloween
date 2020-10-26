@@ -27,6 +27,6 @@ tag @s remove BasaltParty
 scoreboard players remove numBasaltPlayers bsltPlyrsCnt 1
 execute if score numBasaltPlayers bsltPlyrsCnt matches ..0 run function halloween-basics:_reset/basalt_dungeon
 
-execute in minecraft:overworld run tp @s -50 70 -50
-execute in minecraft:overworld run spawnpoint @s -50 70 -50
+execute in minecraft:overworld run tp @s -1328 109 -721
+execute in minecraft:overworld run spawnpoint @s -1328 109 -721
 
