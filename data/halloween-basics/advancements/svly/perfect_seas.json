@@ -1,0 +1,28 @@
+{
+    "display": {
+        "title": {
+            "text": "Swashbuckler",
+            "color": "gold"
+        },
+        "description": {
+            "text": "Complete the Lava Jumper Challenge without falling.",
+            "color": "yellow"
+        },
+        "icon": {
+            "item": "minecraft:rabbit_foot"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "enterMansion": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 50
+    },
+    "parent": "halloween-basics:svly/cmsn_challenge"
+}

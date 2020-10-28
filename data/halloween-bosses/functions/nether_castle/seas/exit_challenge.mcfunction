@@ -2,6 +2,9 @@ tellraw @a[tag=SvlySeas] {"text":"Place the skull on an end rod to summon the An
 tellraw @a[tag=SvlySeas] [{"text":"<Pirate Skeletons> ","color":"dark_gray","bold":true},{"text":"Arrrgghh!","color":"white"}]
 advancement grant @a[tag=SvlySeas] only halloween-basics:svly/seas_challenge
 execute as @a[tag=SvlySeas] at @s run playsound minecraft:entity.player.levelup master @s ~ ~ ~ 1 1
+execute as @a[tag=SvlySeas] at @s run playsound minecraft:music_disc.far master @s ~ ~ ~ 1 1
+
+teleport @a[tag=SvlySeas] @e[tag=svly_seas_exit_room,limit=1]
 
 execute as @a[tag=SvlySeas] at @e[tag=svly_seas_pirate1] run function halloween-basics:spawn/tier1/skeleton_crewmate
 execute as @a[tag=SvlySeas] at @e[tag=svly_seas_pirate1] run function halloween-basics:spawn/tier1/melee_skeleton

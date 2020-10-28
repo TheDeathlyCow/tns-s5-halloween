@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "Free Runner",
+            "color": "gold"
+        },
+        "description": {
+            "text": "Complete the Lava Jumper Challenge.",
+            "color": "yellow"
+        },
+        "icon": {
+            "item": "minecraft:skeleton_skull"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "enterMansion": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "halloween-basics:svly/cmsn_challenge"
+}
