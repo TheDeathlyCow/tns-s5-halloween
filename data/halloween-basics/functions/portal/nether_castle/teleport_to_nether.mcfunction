@@ -17,4 +17,6 @@ scoreboard players add numValleyPlayers svlyPlyrsCnt 1
 # this is only for the LAVA boss
 # gamerule keepInventory true
 
+tellraw @a ["",{"selector":"@s","bold":true,"color":"dark_purple"},{"text":" has entered the Lost Valley of Souls!","color":"aqua"}]
+
 scoreboard players set @s svlyTime 0

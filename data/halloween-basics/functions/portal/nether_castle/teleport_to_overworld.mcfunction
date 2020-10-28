@@ -2,6 +2,7 @@
 # tag @a[dz=-3,dy=5] add warpd_tp_ovwld
 
 # say tp to overworld
+tellraw @a ["",{"selector":"@s","bold":true,"color":"dark_red"},{"text":" has left the Lost Valley of Souls!","color":"red"}]
 
 # clear dungeon-specific items
 clear @s minecraft:wither_skeleton_skull{CanPlaceOn:["minecraft:end_rod"]}
@@ -25,3 +26,4 @@ tag @s remove SvlySeas
 tag @s remove svlySeasPerfect
 tag @s remove SvlyBslt
 tag @s remove svlyBsltPerfect
+
