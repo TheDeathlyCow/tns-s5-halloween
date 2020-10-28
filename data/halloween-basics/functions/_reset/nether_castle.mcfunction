@@ -1,10 +1,11 @@
 execute at @e[tag=svly_wrpd_entrance] run function halloween-bosses:nether_castle/wrpd/close_entrance
-execute at @e[tag=svly_wrpd_entrance] run function halloween-bosses:nether_castle/cmsn/close_entrance
-execute at @e[tag=svly_wrpd_entrance] run function halloween-bosses:nether_castle/seas/close_entrance
-execute at @e[tag=svly_wrpd_entrance] run function halloween-bosses:nether_castle/bslt/close_entrance
+execute at @e[tag=svly_cmsn_entrance] run function halloween-bosses:nether_castle/cmsn/close_entrance
+execute at @e[tag=svly_seas_entrance] run function halloween-bosses:nether_castle/seas/close_entrance
+execute at @e[tag=svly_bslt_entrance] run function halloween-bosses:nether_castle/bslt/close_entrance
 
 execute at @e[tag=svly_wrpd_shulker] run data merge block ~ ~ ~ {Items:[{Slot:13b,id:"minecraft:wither_skeleton_skull",Count:1b,tag:{CanPlaceOn:["minecraft:end_rod"]}}]}
 execute at @e[tag=svly_cmsn_shulker] run data merge block ~ ~ ~ {Items:[{Slot:13b,id:"minecraft:wither_skeleton_skull",Count:1b,tag:{CanPlaceOn:["minecraft:end_rod"]}}]}
+execute at @e[tag=svly_seas_shulker] run data merge block ~ ~ ~ {Items:[{Slot:13b,id:"minecraft:wither_skeleton_skull",Count:1b,tag:{CanPlaceOn:["minecraft:end_rod"]}}]}
 
 
 scoreboard players set cmsnRoom svlyCounter 0

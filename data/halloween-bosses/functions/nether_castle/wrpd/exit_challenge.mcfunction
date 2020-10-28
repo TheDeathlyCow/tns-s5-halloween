@@ -11,3 +11,4 @@ execute at @e[tag=svly_wrpd_entrance] run function halloween-bosses:nether_castl
 
 advancement grant @a[tag=svlyWrpdPerfect] only halloween-basics:svly/perfect_wrpd
 tag @a[tag=svlyWrpdPerfect] remove svlyWrpdPerfect
+tag @a[tag=svlyInChallenge] remove svlyInChallenge

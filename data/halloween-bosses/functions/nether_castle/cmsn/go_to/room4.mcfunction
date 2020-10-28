@@ -5,3 +5,5 @@ execute at @e[tag=svly_cmsn_room3_door] run fill ~ ~ ~ ~ ~2 ~ air
 execute at @e[tag=svly_cmsn_room3_door] run playsound minecraft:block.wooden_door.open master @a[distance=..15] ~ ~ ~
 
 scoreboard players set cmsnRoom svlyCounter 4
+
+execute at @e[tag=svly_cmsn_entrance] run fill ~2 ~ ~1 ~2 ~6 ~-1 black_concrete replace air

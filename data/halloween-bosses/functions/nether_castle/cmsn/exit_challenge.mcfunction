@@ -12,4 +12,8 @@ execute at @e[tag=svly_cmsn_entrance] run function halloween-bosses:nether_castl
 advancement grant @a[tag=svlyCmsnPerfect] only halloween-basics:svly/perfect_cmsn
 tag @a[tag=svlyCmsnPerfect] remove svlyCmsnPerfect
 
+execute at @e[tag=svly_cmsn_entrance] run fill ~2 ~ ~1 ~2 ~6 ~-1 air replace black_concrete
+
+
 scoreboard players set cmsnRoom svlyCounter 0
+tag @a[tag=svlyInChallenge] remove svlyInChallenge
