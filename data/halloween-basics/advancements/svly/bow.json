@@ -1,0 +1,64 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Arrows from Heaven",
+            "color": "dark_purple",
+            "bold": true
+        },
+        "description": {
+            "text": "Obtain the Angel's Bow.",
+            "color": "light_purple",
+            "bold": false
+        },
+        "icon": {
+            "item": "minecraft:bow"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "all_items": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:bow",
+                        "enchantments": [
+                            {
+                                "enchantment": "flame",
+                                "levels": 1
+                            },
+                            {
+                                "enchantment": "infinity",
+                                "levels": 1
+                            },
+                            {
+                                "enchantment": "mending",
+                                "levels": 1
+                            },
+                            {
+                                "enchantment": "power",
+                                "levels": 6
+                            },
+                            {
+                                "enchantment": "punch",
+                                "levels": 2
+                            },
+                            {
+                                "enchantment": "unbreaking",
+                                "levels": 5
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 50
+    },
+    "parent": "halloween-basics:defeat_castle"
+}

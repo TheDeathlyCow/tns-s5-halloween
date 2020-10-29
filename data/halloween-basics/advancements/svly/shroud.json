@@ -1,0 +1,151 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Shrouded in the Mist",
+            "color": "dark_purple",
+            "bold": true
+        },
+        "description": {
+            "text": "Obtain a full set of Shrouded Armour.",
+            "color": "aqua",
+            "bold": false
+        },
+        "icon": {
+            "item": "minecraft:netherite_chestplate"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "all_items": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:player_head",
+                        "enchantments": [
+                            {
+                                "enchantment": "aqua_affinity",
+                                "levels": 1
+                            },
+                            {
+                                "enchantment": "blast_protection",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "fire_protection",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "projectile_protection",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "protection",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "respiration",
+                                "levels": 3
+                            }
+                        ]
+                    },
+                    {
+                        "item": "minecraft:netherite_chestplate",
+                        "enchantments": [
+                            {
+                                "enchantment": "unbreaking",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "blast_protection",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "fire_protection",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "projectile_protection",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "protection",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "mending",
+                                "levels": 3
+                            }
+                        ]
+                    },
+                    {
+                        "item": "minecraft:netherite_leggings",
+                        "enchantments": [
+                            {
+                                "enchantment": "unbreaking",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "blast_protection",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "fire_protection",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "projectile_protection",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "protection",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "mending",
+                                "levels": 3
+                            }
+                        ]
+                    },
+                    {
+                        "item": "minecraft:netherite_boots",
+                        "enchantments": [
+                            {
+                                "enchantment": "unbreaking",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "blast_protection",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "fire_protection",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "projectile_protection",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "protection",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "mending",
+                                "levels": 3
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 50
+    },
+    "parent": "halloween-basics:defeat_castle"
+}

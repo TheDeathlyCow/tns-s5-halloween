@@ -1,0 +1,48 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Champion of the Night Skies",
+            "color": "dark_purple",
+            "bold": true
+        },
+        "description": {
+            "text": "Obtain the Bedrock Infused Netherite Reinforced Elytra.",
+            "color": "light_purple",
+            "bold": false
+        },
+        "icon": {
+            "item": "minecraft:elytra"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "all_items": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:elytra",
+                        "enchantments": [
+                            {
+                                "enchantment": "unbreaking",
+                                "levels": 10
+                            },
+                            {
+                                "enchantment": "protection",
+                                "levels": 5
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 1000
+    },
+    "parent": "halloween-basics:bedrock_master"
+}
