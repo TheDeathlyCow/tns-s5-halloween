@@ -1,0 +1,28 @@
+{
+    "display": {
+        "title": {
+            "text": "In a Pinch",
+            "color": "dark_purple"
+        },
+        "description": {
+            "text": "Complete the Basalt Maze in under a minute.",
+            "color": "dark_gray"
+        },
+        "icon": {
+            "item": "minecraft:clock"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "enterMansion": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 50
+    },
+    "parent": "halloween-basics:svly/seas_challenge"
+}

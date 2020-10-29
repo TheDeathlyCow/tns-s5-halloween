@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "The Mazerunner",
+            "color": "dark_gray"
+        },
+        "description": {
+            "text": "Complete the Basalt Maze Challenge.",
+            "color": "gray"
+        },
+        "icon": {
+            "item": "minecraft:basalt"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "enterMansion": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "halloween-basics:svly/seas_challenge"
+}

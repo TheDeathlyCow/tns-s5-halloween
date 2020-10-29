@@ -2,6 +2,8 @@ execute if entity @a[tag=SvlyWrpd] run function halloween-bosses:nether_castle/w
 execute if entity @a[tag=SvlyCmsn] run function halloween-bosses:nether_castle/cmsn/tick
 execute if entity @a[tag=SvlyBoss] run function halloween-bosses:nether_castle/boss/tick
 execute if entity @a[tag=SvlySeas] run function halloween-bosses:nether_castle/seas/tick
+execute if entity @a[tag=SvlyBslt] run function halloween-bosses:nether_castle/bslt/tick
+
 
 execute as @e[tag=halloweenMob] run data merge entity @s {PersistenceRequired:1b}
 
