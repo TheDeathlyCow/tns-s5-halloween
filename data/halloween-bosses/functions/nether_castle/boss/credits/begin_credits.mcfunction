@@ -8,4 +8,4 @@ title @a[tag=SvlyDone] title {"text":"The Nether Crisis","bold":true,"color":"da
 playsound minecraft:music.credits master @a[distance=..15] ~ ~ ~
 scoreboard players enable @a[tag=SvlyDone] svlyExit
 
-tellraw @a[tag=SvlyDone] ["",{"text":"Click ","color":"gray"},{"text":"here","underlined":true,"color":"gray","clickEvent":{"action":"run_command","value":"/trigger svlyExit set 1"}},{"text":" to skip the credits.","color":"gray"}]
+tellraw @a[tag=SvlyDone] ["",{"text":"Click ","color":"gray"},{"text":"here","underlined":true,"color":"gray","clickEvent":{"action":"run_command","value":"/trigger svlyExit set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Return to Overworld"}}},{"text":" to skip the credits.","color":"gray"}]
