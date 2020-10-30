@@ -1,0 +1,35 @@
+{
+    "type": "entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:ghast_tear",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'{\"italic\":false,\"color\":\"dark_purple\",\"text\":\"Soul Shard\"}'},soulShard:1b,Enchantments:[{id:'minecraft:binding_curse',lvl:1s}]}"
+                        },
+                        {
+                            "function": "looting_enchant",
+                            "count": {
+                                "min": 0,
+                                "max": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -3,6 +3,9 @@ execute at @e[tag=svly_cmsn_entrance] run function halloween-bosses:nether_castl
 execute at @e[tag=svly_seas_entrance] run function halloween-bosses:nether_castle/seas/close_entrance
 execute at @e[tag=svly_bslt_entrance] run function halloween-bosses:nether_castle/bslt/close_entrance
 
+execute at @e[tag=svly_fire_unlit] run setblock ~ ~ ~ soul_campfire[lit=true]
+tag @e[tag=svly_fire_unlit] remove svly_fire_unlit
+
 execute at @e[tag=svly_wrpd_shulker] run data merge block ~ ~ ~ {Items:[{Slot:13b,id:"minecraft:wither_skeleton_skull",Count:1b,tag:{CanPlaceOn:["minecraft:end_rod"]}}]}
 execute at @e[tag=svly_cmsn_shulker] run data merge block ~ ~ ~ {Items:[{Slot:13b,id:"minecraft:wither_skeleton_skull",Count:1b,tag:{CanPlaceOn:["minecraft:end_rod"]}}]}
 execute at @e[tag=svly_seas_shulker] run data merge block ~ ~ ~ {Items:[{Slot:13b,id:"minecraft:wither_skeleton_skull",Count:1b,tag:{CanPlaceOn:["minecraft:end_rod"]}}]}
@@ -22,6 +25,7 @@ tag @a[tag=SvlyCmsn] remove SvlyCmsn
 tag @a[tag=svlyCmsnPerfect] remove svlyCmsnPerfect
 tag @a[tag=svlyWrpdPerfect] remove svlyWrpdPerfect
 tag @a[tag=SvlyBslt] remove SvlyBslt
+tag @a[tag=SvlyBoss] remove SvlyBoss
 
 execute as @e[type=minecraft:armor_stand,tag=castle_dungeon_marker] at @s run function halloween-basics:_reset/chests
 execute as @e[type=minecraft:armor_stand,tag=castle_dungeon_marker] at @s run function halloween-basics:_reset/mobs

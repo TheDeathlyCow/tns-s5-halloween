@@ -76,6 +76,9 @@ scoreboard players add cmsnRoom svlyCounter 0
 
 scoreboard players add svlySeasActivated svlyCounter 0
 
+scoreboard objectives add svlyCredits trigger
+scoreboard objectives add svlyExit trigger
+
 # speed running timer for svly
 scoreboard objectives add svlyTime dummy
 scoreboard players set ticksPerMinute svlyTime 20
